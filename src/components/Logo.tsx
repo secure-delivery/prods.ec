@@ -20,7 +20,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg aria-hidden="true" viewBox="0 0 227 36" fill="none" {...props}>
       <LogomarkPaths />
-      <text x="50" y="25" font-family="Inter" font-size="1.2em" font-weight="700">OWASP PSCF</text>
+      <text x="50" y="25" fontFamily="Inter" fontSize="1.2em" fontWeight="700">OWASP PSCF</text>
     </svg>
   )
 }
