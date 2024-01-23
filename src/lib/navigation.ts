@@ -92,13 +92,13 @@ export const navigation = [
       { title: '[PSCF-OV-IR] Incident Response', href: '/docs/cacheadvance-predict' },
     ],
   },
+  */
   {
     title: 'Contributing',
     links: [
       { title: 'How to contribute', href: '/pscf/contributing/how-to-contribute' },
-      { title: 'Regulatory mapping guide', href: '/pscf/contributing/compliance-mapping-guide' },
+      { title: 'Regulatory mapping guide', href: '/pscf/contributing/regulatory-mapping-guide' },
       { title: 'Project principles', href: '/pscf/contributing/project-principles' },
     ],
   },
-  */
 ]
