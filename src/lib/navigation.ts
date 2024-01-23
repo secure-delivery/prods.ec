@@ -2,34 +2,34 @@ export const navigation = [
   {
     title: 'Introduction',
     links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'What is a framework?', href: '/docs/what-is-a-framework' },
-      { title: 'How this framework helps', href: '/docs/why-a-framework' },
+      { title: 'Getting started', href: '/pscf/intro/getting-started' },
+      { title: 'What is a framework?', href: '/pscf/intro/what-is-a-framework' },
+      { title: 'How this framework helps', href: '/pscf/intro/how-this-framework-helps' },
+      { title: 'Adopting this framework', href: '/pscf/intro/adopting-this-framework' },
+      { title: 'Acknowledgements', href: '/pscf/intro/acknowledgements' },
     ],
   },
   {
     title: 'Core concepts',
     links: [
-      { title: 'Capabilities are your foundation for security', href: '/docs/understanding-capabilities' },
-      {
-        title: 'Security is an aspect of software product quality',
-        href: '/docs/security-quality',
-      },
-      { title: 'Understanding, Information & Opportunity', href: '/docs/basics-of-time-travel' },
-      { title: 'Accountability & Reponsibility', href: '/docs/accountability-and-responsibility' },
+      { title: 'Capabilities drive secure product', href: '/pscf/concepts/capabilities-drive-secure-products' },
+      { title: 'Security is an aspect of software product quality', href: '/pscf/concepts/security-quality' },
+      { title: 'Understanding, Information & Opportunity', href: '/pscf/concepts/understanding-information-opportunity' },
+      { title: 'Accountability & Reponsibility', href: '/pscf/concepts/accountability-and-responsibility' },
     ],
   },
   {
     title: 'Capability areas',
     links: [
-      { title: 'Risk Management', href: '/docs/risk-management' },
-      { title: 'Secure Product Management', href: '/docs/secure-product-management' },
-      { title: 'Secure Product Implementation', href: '/docs/secure-product implementation' },
-      { title: 'Secure Build & Deployment', href: '/docs/secure-build-and-deployment' },
-      { title: 'Quality Control', href: '/docs/quality-control' },
-      { title: 'Operational Visibility', href: '/docs/operational-visibility' },
+      { title: 'Risk Management', href: '/pscf/capability-areas/risk-management' },
+      { title: 'Secure Product Management', href: '/pscf/capability-areas/secure-product-management' },
+      { title: 'Secure Product Implementation', href: '/pscf/capability-areas/secure-product-implementation' },
+      { title: 'Secure Build & Deployment', href: '/pscf/capability-areas/secure-build-and-deployment' },
+      { title: 'Quality Control', href: '/pscf/capability-areas/quality-control' },
+      { title: 'Operational Visibility', href: '/pscf/capability-areas/operational-visibility' },
     ],
   },
+  /*
   {
     title: 'Risk Management',
     links: [
@@ -95,9 +95,10 @@ export const navigation = [
   {
     title: 'Contributing',
     links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Compliance mapping guide', href: '/docs/compliance-mapping-guide' },
-      { title: 'Framework principles', href: '/docs/framework-principles' },
+      { title: 'How to contribute', href: '/pscf/contributing/how-to-contribute' },
+      { title: 'Regulatory mapping guide', href: '/pscf/contributing/compliance-mapping-guide' },
+      { title: 'Project principles', href: '/pscf/contributing/project-principles' },
     ],
   },
+  */
 ]

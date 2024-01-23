@@ -55,7 +55,7 @@ export function Hero() {
                 Make sure your software delivery organisation has the capabilities required to deliver secure products.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Get started with the framework</Button>
+                <Button href="/introduction/getting-started">Get started with the framework</Button>
                 <Button href="https://github.com/OWASP/PSCF" variant="secondary">
                   Contribute on GitHub
                 </Button>
