@@ -6,71 +6,60 @@ nextjs:
     description: How to adopt this framework and adapt it where necessary for your organisation.
 ---
 
-What this section is about.
+How to get started with this framework.
 
 ---
 
-## Adopting the framework
+## 1. Understand the framework
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+Read through the [framework core concepts](/pscf/concepts/requirements-not-opinions) to understand how to frame the work of building security capabilities into your software delivery organisation.
 
-### Determing your compliance requirements
+## 2. Clarify your organisation's compliance requirements
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+All security capabilities in the PSCF are derived from, and mapped to, regulatory frameworks and industry and community standards. If your organisation must be, for example, GDPR compliant and needs to adhere to NIST SSDF then you can limit the security capabilities to just the ones you require.
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+## 3. Determine your accountable roles and responsible groups
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+The framework comes with suggested accountable roles and responsible groups for each security capability. These are accountabilities and responsibilites that work well and scalably across most organisations, but yours may differ in certain ways. It's extremely important to clearly define these accountabilities and responsibilities as a lack of clarity here is what leads to most security programmes failing.
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+See [Accountability & Responsibility](/pscf/concepts/accountability-and-responsibility) for details on how to fairly and scalably assign accountability and responsibility in your organisation.
+
+## 4. Appraise your organisation
+
+Once you know the security capabilities your delivery organisation must have to meet its compliance requirements, and the people who are involved in doing them, you can determine how effective your organisation currently is at each of those capabilities.
+
+The framework uses a 1-5 scale of effectiveness for each capability across three areas (Understanding, Information and Opportunity). This gives you all the detail you need to plan for capabiity uplift where needed. A capability may have:
+
+* An understanding issue, where people need to be trained or supporting tooling needs to be brought in to help
+* An information issue, that work on data gathering, analysis and presentation can solve by putting actionable information in front of the right people
+* An opportunity issue, requiring an investment in automation or in additional people to carry out the required security capabilities during product delivery
+
+The appraisal gives you all the information you need for the next step.
+
+## 5. Plan your product security programme
+
+Now you've identified where you have gaps in understanding, information or opportunity across the security capabilities your organisation requires, you can prioritise the most important areas of concern with a programme of work for capability uplift.
+
+## 6. Update your security policy
+
+With a clear view of the security capabilities your organisation needs and the people who are accountable and responsible for them, you can update your security policy for software delivery to define the requirements for everyone.
+
+Involve all your defined accountable people and representatives from the responsible groups in the security policy update. Software product security comes from within the delivery organisation, it can't effectively be imposed on it from outside.
+
+{% callout type="warning" title="Mind the gap!" %}
+The difference between how you think people are working and how they are actually working is known as an "Alignment Gap". These gaps introduce substantial risk to the organisation and can be created by an aspirational policy that isn't grounded in reality or by gradual changes in working practices not being tracked by updating policy.
+
+You can manage this alignment gap by setting a future date at which new policy will come into effect for the organisation and aligning that date with your product security programme of work. Making sure that all the necessary improvements to understanding, information and opportunity are in place before the new policy comes into effect.
 {% /callout %}
 
-### Appraising your organisation
+## 7. Regularly re-appraise
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+After an interval that makes sense, most likely determined by how quickly your organisation can implement improvements, re-appraise the delivery organisation against the required security capabilities. Doing this means:
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+* You can quantitatively show the ROI of strategic improvement work through capability uplift
+* You can update your product security programme to be more effective, if needed
+* Everyone in the delivery organisation can see how their hard work is benefiting them, and their customers
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+{% callout title="Security Capability Agility" %}
+If your organisation is entering new geographic markets or industry verticals that bring new compliance requirements, you can proactively bring in any new required security capabilities or any higher capability effectiveness needed to meet these requirements using the PSCF!
 {% /callout %}
-
-### Establishing the alignment gap
-
-### Uplifting Capabilities
-
----
-
-## Getting help
-
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
-
-### Submit an issue
-
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
-
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
-
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
-
-### Join the community
-
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
-
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
-
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.

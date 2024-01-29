@@ -23,7 +23,7 @@ const lexend = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Docs',
+    template: '%s - PSCF',
     default: 'PSCF - No more insecure software.',
   },
   description:

@@ -1,20 +1,20 @@
 ---
-title: Getting Started
+title: Requirements Not Opinions
 nextjs:
   metadata:
-    title: Getting Started
-    description: People and companies not part of the project team that have made a significant contribution.
+    title: Requirements Not Opinions
+    description: The PSCF team don't just want to throw their opinions on what matters in with everyone else's. This section describes the rigorous process by which the PSCF security capabilities were derived.
 ---
 
 What this section is about.
 
 ---
 
-## Adopting the framework
+## Heading
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 
-### Determing your compliance requirements
+### Subheading
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
 
@@ -28,7 +28,7 @@ Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit per
 This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
 {% /callout %}
 
-### Appraising your organisation
+### Subheading
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
 
@@ -49,17 +49,13 @@ Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit per
 This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
 {% /callout %}
 
-### Establishing the alignment gap
-
-### Uplifting Capabilities
-
 ---
 
-## Getting help
+## Heading
 
 Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
 
-### Submit an issue
+### Heading
 
 Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
 
@@ -67,7 +63,7 @@ Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptat
 
 Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
 
-### Join the community
+### Heading
 
 Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
 

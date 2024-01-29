@@ -2,7 +2,6 @@ export const navigation = [
   {
     title: 'Introduction',
     links: [
-      { title: 'Getting started', href: '/pscf/intro/getting-started' },
       { title: 'What is a framework?', href: '/pscf/intro/what-is-a-framework' },
       { title: 'How this framework helps', href: '/pscf/intro/how-this-framework-helps' },
       { title: 'Adopting this framework', href: '/pscf/intro/adopting-this-framework' },
@@ -10,16 +9,18 @@ export const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Framework core concepts',
     links: [
+      { title: 'Requirements not opinions', href: '/pscf/concepts/requirements-not-opinions' },
       { title: 'Capabilities drive secure product', href: '/pscf/concepts/capabilities-drive-secure-products' },
       { title: 'Security is an aspect of software product quality', href: '/pscf/concepts/security-quality' },
       { title: 'Understanding, Information & Opportunity', href: '/pscf/concepts/understanding-information-opportunity' },
+      { title: 'Measuring capability effectiveness', href: '/pscf/concepts/measuring-capabiility-effectiveness' },
       { title: 'Accountability & Reponsibility', href: '/pscf/concepts/accountability-and-responsibility' },
     ],
   },
   {
-    title: 'Capability areas',
+    title: 'Framework capability areas',
     links: [
       { title: 'Risk Management', href: '/pscf/capability-areas/risk-management' },
       { title: 'Secure Product Management', href: '/pscf/capability-areas/secure-product-management' },
