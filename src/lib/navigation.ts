@@ -5,6 +5,7 @@ export const navigation = [
       { title: 'What is a framework?', href: '/pscf/intro/what-is-a-framework' },
       { title: 'How this framework helps', href: '/pscf/intro/how-this-framework-helps' },
       { title: 'Adopting this framework', href: '/pscf/intro/adopting-this-framework' },
+      { title: 'Licensing', href: '/pscf/intro/licensing' },
       { title: 'Acknowledgements', href: '/pscf/intro/acknowledgements' },
     ],
   },
