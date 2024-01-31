@@ -6,67 +6,52 @@ nextjs:
     description: Software product quality is well defined, and security is just one aspect of it.
 ---
 
-What this section is about.
+What is quality? In the world of software products this isn't a metaphysical conundrum, it's well-defined!
 
 ---
 
-## Heading
+## What is software product quality
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+This framework uses a rigorous definition of quality for software products, the ISO25010 Software Product Quality Model.
 
-### Subheading
+### ISO25010 Software Product Quality Model
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+![A diagram showing the ISO25010 Software Product Quality Model with quality characteristics of Functional Suitability, Performance Efficiency, Compatibility, Usability, Reliability, Security, Maintainability, Flexibility and Safey](/images/iso25010-software-product-quality-model.png)
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+For reasons not known to the PSCF project team, this model is almost unheard of in the software delivery world. The lack of awareness is very unfortunate because the ISO quality model is comprehensive and extremely helpful in defining the things that matter for a software product.
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+{% callout title="Product Owners" %}
+You should be particularly interested in this quality model if you're in product management. Being a product owner means you prioritise all of these aspects of quality for your customers and organisation, balancing team effort to create a product of sufficient quality. Product Owner sounds nicer than Quality Manager, though.
 {% /callout %}
 
-### Subheading
+## Prioritising quality
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+The ISO team have connected the model to how a software product delivers value to a business. This means there's a left-to-right order of "importance" to it, with the highest value aspects of quality on the left and the lowest on the right. It's a generic, all industries view but look at the order and see if you agree.
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+Functional quality will almost always overrule any other aspect of quality. No one cares how fast, reliable or flexible your software is if it doesn't work!
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Performance is the biggest contributor to your customer's perception of quality in your software product. A snappy, responsive system always feels higher quality than a slow, unresponsive one.
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+You might be surprised to see reliability being of lower importance. However, a system that's 99.999% available but so slow it's unusable is pretty low value.
+
+Overall, the most visible aspects of quality to your customers are of higher value and the less visible aspects are of lower value.
+
+{% callout type="warning" title="So can we just ignore the things on the right?" %}
+Not if you want to sustainably deliver value over time!
+
+Low security quality is an incident waiting to happen; the longer you have low security quality the more likely the incident will happen. The remaining qualities on the right chiefly impact the delivery team itself. A software product with low maintainability and flexibility will quickly lead to one with reliability, performance and functional problems for your customers.
 {% /callout %}
 
----
+## How to use the model
 
-## Heading
+The model has a sensible order of quality importance, but it could be wrong for your organisation and product. Most software delivery teams don't have to worry much about their software's safety, but you might have to. For some products, reliability could be all-important, or performance might not be a big concern for your customers and organisation.
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+To start with, review the order of the model and adjust it where necessary for your purposes. Once you have a correctly prioritised quality model you have a high-level view of what's most important to your customers and to your organisation.
 
-### Heading
+Next, set some quantifiable targets for each aspect of quality. From metrics that clearly indicate that you're reaching the levels of quality your customers and organisation require. We like the Service Level Objective (SLO) and Service Level Indicator (SLI) approach. Having clear measures of quality that you track over time stops it from being a subjective guessing game for the delivery team and makes for a far more effective approach to delivering high-quality software products consistently.
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+{% callout title="Quality Metrics" %}
+In the PSCF we call these measures **Quality Metrics**. For each capability, we provide suggested SLIs that will be useful for you to track and use for your security SLOs. **Quality Metrics** are balanced against **Delivery Metrics**, measures of delivery effectiveness, to ensure you're not impacting the timely delivery of software products to your customers with excessively high requirements for quality.
+{% /callout %}
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
-
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
-
-### Heading
-
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
-
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
-
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+Finally, track these SLIs over time and use their trends to inform your decision-making. Having early sight that performance, reliability or security quality is declining means you can re-prioritise your efforts in those areas before an incident occurs.
