@@ -16,7 +16,7 @@ Read through the [framework core concepts](/pscf/concepts/requirements-not-opini
 
 ## 2. Clarify your organisation's compliance requirements
 
-All security capabilities in the PSCF are derived from, and mapped to, regulatory frameworks and industry and community standards. If your organisation must be, for example, GDPR compliant and needs to adhere to NIST SSDF then you can limit the security capabilities to just the ones you require.
+All security capabilities in the PSCF are derived from, and mapped to, regulatory frameworks and industry and community standards. If your organisation must be GDPR compliant and needs to adhere to NIST SSDF then you can limit the security capabilities to just the ones you require.
 
 ## 3. Determine your accountable roles and responsible groups
 
