@@ -6,67 +6,44 @@ nextjs:
     description: Introducing the quality outcomes axiom. Capabilities lead to actions, which lead to product quality, which lead to customer value, which lead to business outcomes.
 ---
 
-What this section is about.
+What's so special about capabilities that we've built an entire framework around them? Read on!
 
 ---
 
-## Heading
+{% callout title="Definition" %}
+**axiom** | ˈaksɪəm |
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+noun
 
-### Subheading
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-```shell
-npm install @tailwindlabs/cache-advance
-```
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+  _A statement or proposition which is regarded as being established, accepted, or self-evidently true._
 {% /callout %}
 
-### Subheading
+## The quality outcomes axiom
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+This framework introduces the quality outcomes axiom:
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+![A process diagram showing the quality outcomes axiom](/images/quality-outcomes-axiom.png)
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Your delivery organisation's capabilities lead to actions, which lead to product quality, which delivers customer value and leads to business outcomes.
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+Put more simply: the things you do lead to the outcomes you get. We believe this to be axiomatic (or: just plain obvious). Accepting this means that capabilities are the start of all aspects of your software products' quality and ultimately of the value your customers get from them and the business outcomes they bring.
+
+{% callout title="Not just businesses..." %}
+Non-commercial outcomes if you're a community software project. Gaining more use and a happier userbase are good outcomes of a higher quality community project!
 {% /callout %}
 
----
+## An example security capability
 
-## Heading
+Let's make this less abstract with an example of one of the PSCF's security capabilities. In this case, an essential technical capability to meet the requirements of [NIST SSDF](https://csrc.nist.gov/projects/ssdf) **PW.5**.
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+### PSCF-SPI-SCP: Secure Coding Practices
 
-### Heading
+_The capability to define, understand and apply secure coding practices to the creation of source code for use in the organisation's products_
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+As you could predict, having a high level of capability here leads to the activity of writing more secure code for your software products. This makes them higher quality from a security point of view, leading to more customer value (your customers definitely do value security!) and better business outcomes.
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+{% callout type="warning" title="What if your organisation isn't very capable at this?" %}
+Of course, if you appraise your organisation and score low for this capability because of a lack of understanding, a lack of good guidance, or your software developers aren't given enough time to write secure code, just quick hacky code, then the security quality won't be in your products. Leading to your customers potentially seeing other customers' data, or having their data stolen. This isn't leading to the kind of outcomes you want.
+{% /callout %}
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
-
-### Heading
-
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
-
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
-
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+We've mentioned quality a lot when talking about software product security, but haven't defined exactly what quality is in the PSCF yet. Let's do that now.
