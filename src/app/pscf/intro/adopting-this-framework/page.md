@@ -16,7 +16,7 @@ Read through the [framework core concepts](/pscf/concepts/requirements-not-opini
 
 ## 2. Clarify your organisation's compliance requirements
 
-All security capabilities in the PSCF are derived from, and mapped to, regulatory frameworks and industry and community standards. If your organisation must be GDPR compliant and needs to adhere to NIST SSDF then you can limit the security capabilities to just the ones you require.
+All security capabilities in the PSCF are derived from, and mapped to, regulatory frameworks and industry and community standards. If your organisation must be GDPR compliant and its software delivery function needs to adhere to NIST SSDF then you can limit the security capabilities to just the ones you require.
 
 ## 3. Determine your accountable roles and responsible groups
 
@@ -30,9 +30,9 @@ Once you know the security capabilities your delivery organisation must have to 
 
 The framework uses a 1-5 scale of effectiveness for each capability across three areas (Understanding, Information and Opportunity). This gives you all the detail you need to plan for capabiity uplift where needed. A capability may have:
 
-* An understanding issue, where people need to be trained or supporting tooling needs to be brought in to help
-* An information issue, that work on data gathering, analysis and presentation can solve by putting actionable information in front of the right people
-* An opportunity issue, requiring an investment in automation or in additional people to carry out the required security capabilities during product delivery
+* An understanding issue where people need to be trained or supporting tooling needs to be brought in to help
+* An information issue that work on data gathering, analysis and presentation can solve by putting actionable information in front of the right people
+* An opportunity issue requiring an investment in automation or in additional people to carry out the required security capabilities during product delivery
 
 The appraisal gives you all the information you need for the next step.
 

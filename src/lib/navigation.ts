@@ -12,7 +12,7 @@ export const navigation = [
   {
     title: 'Framework core concepts',
     links: [
-      { title: 'Requirements not opinions', href: '/pscf/concepts/requirements-not-opinions' },
+      { title: 'Security requirements not security opinions', href: '/pscf/concepts/security-requirements-not-security-opinions' },
       { title: 'Capabilities drive secure product', href: '/pscf/concepts/capabilities-drive-secure-products' },
       { title: 'Security is an aspect of software product quality', href: '/pscf/concepts/security-quality' },
       { title: 'Understanding, Information & Opportunity', href: '/pscf/concepts/understanding-information-opportunity' },
