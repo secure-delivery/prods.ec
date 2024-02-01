@@ -15,9 +15,9 @@ export const navigation = [
       { title: 'Security requirements not security opinions', href: '/pscf/concepts/security-requirements-not-security-opinions' },
       { title: 'Capabilities drive secure product', href: '/pscf/concepts/capabilities-drive-secure-products' },
       { title: 'Security is an aspect of software product quality', href: '/pscf/concepts/security-quality' },
-      { title: 'Understanding, Information & Opportunity', href: '/pscf/concepts/understanding-information-opportunity' },
-      { title: 'Measuring capability effectiveness', href: '/pscf/concepts/measuring-capabiility-effectiveness' },
-      { title: 'Accountability & Reponsibility', href: '/pscf/concepts/accountability-and-responsibility' },
+      { title: 'Understanding, Information & Opportunity [TBD]', href: '/pscf/concepts/understanding-information-opportunity' },
+      { title: 'Measuring capability effectiveness [TBD]', href: '/pscf/concepts/measuring-capabiility-effectiveness' },
+      { title: 'Accountability & Reponsibility [TBD]', href: '/pscf/concepts/accountability-and-responsibility' },
     ],
   },
   {
@@ -98,9 +98,9 @@ export const navigation = [
   {
     title: 'Contributing',
     links: [
-      { title: 'How to contribute', href: '/pscf/contributing/how-to-contribute' },
-      { title: 'Regulatory mapping guide', href: '/pscf/contributing/regulatory-mapping-guide' },
-      { title: 'Project principles', href: '/pscf/contributing/project-principles' },
+      { title: 'How to contribute [TBD]', href: '/pscf/contributing/how-to-contribute' },
+      { title: 'Regulatory mapping guide [TBD]', href: '/pscf/contributing/regulatory-mapping-guide' },
+      { title: 'Project principles [TBD]', href: '/pscf/contributing/project-principles' },
     ],
   },
 ]

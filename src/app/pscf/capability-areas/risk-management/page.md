@@ -10,63 +10,97 @@ nextjs:
 
 ---
 
-## Heading
+## Area Overview
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 
-### Subheading
+## Capabilities
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### [PSCF-RM-OOM]	Organisational Operating Model
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+_The capability to evaluate and apply fair and scalable accountabilities and reponsibilities for capabilities across the delivery organisation._
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+#### Capability Overview
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 
-### Subheading
+#### Required By
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+{% table / %}
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+### [PSCF-RM-CCI]	Continuous Capability Improvement
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+_The capability to evaluate capabilities in this framework that require improvement and apply improvements over time._
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+#### Capability Overview
 
----
+{% video src="https://www.youtube.com/embed/qkSBlcDT1nU?si=3BuPSubIuFUcKhD7" /%}
 
-## Heading
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+### [PSCF-RM-TPC]	Third-Party Components
 
-### Heading
+_The capability to evaluate and select third-party component suppliers._
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+#### Capability Overview
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+{% video src="https://www.youtube.com/embed/ZruVUg7LQCc?si=owaD-PuvB3t_mKMP" /%}
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
 
-### Heading
+### [PSCF-RM-TPD]	Third-Party Software Development Services
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+_The capability to evaluate and select secure third-party development services suppliers._
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+#### Capability Overview
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+{% video src="https://www.youtube.com/embed/SGhh-tIMWSA?si=vrcwm8T0RsJ5G68n" /%}
+
+
+### [PSCF-RM-TPS]	Third-Party Software-as-a-Service
+
+_The capability to evaluate and select secure SaaS offerings from third parties._
+
+#### Capability Overview
+
+{% video src="https://www.youtube.com/embed/C_NloUjEa9I?si=170U1b0Edf21xzTj" /%}
+
+
+### [PSCF-RM-CO]	Compliance Obligations
+
+_The capability to define, understand and apply your obligations for compliance to your product delivery process._
+
+#### Capability Overview
+
+{% video src="https://www.youtube.com/embed/7l4Xwh2RPIg?si=4V9C8QFaDfthiZlk" /%}
+
+
+### [PSCF-RM-DPO]	Data Processing Obligations
+
+_The capability to define, understand and apply your obligations for data processing to your product delivery process._
+
+#### Capability Overview
+
+{% video src="https://www.youtube.com/embed/QjjAdk-sYJc?si=7cmOB5HOA-rOFnz2" /%}
+
+
+### [PSCF-RM-BIA]	Business Impact Assessment
+
+_The capability to analyse the business value of products and the effects security disruptions to that product will have on business._
+
+#### Capability Overview
+
+{% video src="https://www.youtube.com/embed/xvLFS8Dsf8c?si=yUhNojJ6yOe3dTLD" /%}
+
+
+### [PSCF-RM-DIA]	Data Protection Impact Assessment
+
+_The capability to analyse the potential impact to the data subject that a failure of data protection would have._
+
+#### Capability Overview
+
+### [PSCF-RM-TI]	Threat Intelligence
+
+_The capability to define and understand criminal abuses your product might be exposed to and apply this understanding to product delivery._
+
+#### Capability Overview
+
+{% video src="https://www.youtube.com/embed/3VD0TOpTVW8?si=8XqfDQ4OnFNhNwQQ" /%}

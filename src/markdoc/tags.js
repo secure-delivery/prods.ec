@@ -1,5 +1,6 @@
 import { Callout } from '@/components/Callout'
 import { Video } from '@/components/Video'
+import { Table } from '@/components/Table'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
@@ -36,6 +37,13 @@ const tags = {
         <figcaption>{caption}</figcaption>
       </figure>
     ),
+  },
+  table: {
+    selfClosing: true,
+    attributes: {
+        
+    },
+    render: Table,
   },
   'quick-links': {
     render: QuickLinks,
