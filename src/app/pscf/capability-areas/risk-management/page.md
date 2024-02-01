@@ -6,7 +6,7 @@ nextjs:
     description: A description of the Risk Management capability area.
 ---
 
-What this section is about.
+{% video src="https://www.youtube.com/embed/7Hd5zge2wS8?si=VLFRuxDx_DeN6GlE" /%}
 
 ---
 
