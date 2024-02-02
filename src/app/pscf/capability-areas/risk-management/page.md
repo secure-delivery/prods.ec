@@ -8,8 +8,6 @@ nextjs:
 
 {% video src="https://www.youtube.com/embed/T6dloXMKrwc?si=lE4BMMcbmTZb1zbY" /%}
 
----
-
 ## Area Overview
 
 Risk management is a dynamic and integral part of product development and management. It’s not a one-time activity but a continuous process that evolves with the product and the surrounding threat landscape. By effectively managing risks, organizations can not only protect their products but also support their overall business objectives and maintain customer trust.
@@ -47,9 +45,9 @@ Choosing the right structure and processes to focus on within the OOM is essenti
 
 _The capability to evaluate capabilities in this framework that require improvement and apply improvements over time._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/qkSBlcDT1nU?si=3BuPSubIuFUcKhD7" /%}
+
+#### Capability Overview
 
 Your capacity for Continuous Capability Improvement reflects the ability of your organisation to systematically evaluate and enhance the security aspects of product delivery. This capability is essential for keeping pace with the ever-evolving landscape of technological advancements and changing work practices.
 
@@ -59,9 +57,9 @@ As the world and technology evolve, so must our security practices to prevent th
 
 _The capability to evaluate and select third-party component suppliers._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/ZruVUg7LQCc?si=owaD-PuvB3t_mKMP" /%}
+
+#### Capability Overview
 
 Recognizing that it is impractical to build every component in-house, this capability involves making informed decisions about utilizing third-party solutions, such as databases, cloud-based services, secrets storage, etc.
 
@@ -73,9 +71,9 @@ Understanding the importance of having a robust process to assess and authorize 
 
 _The capability to evaluate and select secure third-party development services suppliers._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/SGhh-tIMWSA?si=vrcwm8T0RsJ5G68n" /%}
+
+#### Capability Overview
 
 This capability is vital when outsourcing software creation, as it involves ensuring that these external parties not only meet but ideally exceed your organization's standards for quality and security.
 
@@ -87,9 +85,9 @@ It is important to clearly define ownership and usage rights in contractual agre
 
 _The capability to evaluate and select secure SaaS offerings from third parties._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/C_NloUjEa9I?si=170U1b0Edf21xzTj" /%}
+
+#### Capability Overview
 
 Choosing Software as a Service (SaaS) providers is more complex than selecting general third-party components due to the critical nature of the services provided and the intricacies of contractual agreements. This capability is essential for integrating business-critical systems like Identity Providers (IdPs), online log management services, or Content Delivery Networks (CDNs) into an organization's operations. These services, often crucial for automation or computational tasks, are not typically core to a business but are fundamental to its smooth functioning.
 
@@ -99,9 +97,9 @@ The selection process requires careful consideration because these SaaS offering
 
 _The capability to define, understand and apply your obligations for compliance to your product delivery process._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/7l4Xwh2RPIg?si=4V9C8QFaDfthiZlk" /%}
+
+#### Capability Overview
 
 Internal compliance encompasses voluntary standards an organization might adopt, like ISO27001 or SOC 2, which are chosen for their value in enhancing operations or customer trust. External compliance, on the other hand, involves adhering to legal and industry-specific regulations, such as the Data Security Standard (PCI-DSS) for businesses involved in the Payment Card Industry. Failure to comply can lead to legal issues or loss of operational licenses.
 
@@ -111,9 +109,9 @@ This capability requires a thorough understanding of what each set of compliance
 
 _The capability to define, understand and apply your obligations for data processing to your product delivery process._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/QjjAdk-sYJc?si=7cmOB5HOA-rOFnz2" /%}
+
+#### Capability Overview
 
 Part of an organization's broader compliance obligations, requiring a clear understanding of the specific regulations that apply, such as the General Data Processing Rules (GDPR) for businesses operating in Europe. It is important to comprehending the full scope of data processing, including the nature of the data, its intended use, and the adherence to specific requirements of regulations like GDPR. You must also be aware of any third-party entities involved in data processing and ensure their compliance with relevant regulations. This capability is crucial for organizations to meet regulatory standards and avoid potential legal complications.
 
@@ -121,9 +119,9 @@ Part of an organization's broader compliance obligations, requiring a clear unde
 
 _The capability to analyse the business value of products and the effects security disruptions to that product will have on business._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/xvLFS8Dsf8c?si=yUhNojJ6yOe3dTLD" /%}
+
+#### Capability Overview
 
 Analyzing the business value of products and the impact of security disruptions centres around the vital process of Business Impact Assessment (BIA) within a product delivery organization.
 
@@ -143,9 +141,9 @@ This capability is centered on meticulously evaluating the data processing activ
 
 _The capability to define and understand criminal abuses your product might be exposed to and apply this understanding to product delivery._
 
-#### Capability Overview
-
 {% video src="https://www.youtube.com/embed/3VD0TOpTVW8?si=8XqfDQ4OnFNhNwQQ" /%}
+
+#### Capability Overview
 
 Defining and understanding criminal abuses a product might face, and applying this knowledge to product delivery, revolves around developing a comprehensive threat intelligence capability.
 
