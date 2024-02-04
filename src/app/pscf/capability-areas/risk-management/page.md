@@ -37,9 +37,9 @@ Involvement of leadership and stakeholders is crucial in OOM. These key players 
 
 Choosing the right structure and processes to focus on within the OOM is essential. While it might be tempting to cover every conceivable aspect, the priority should be on those areas that significantly influence accountability, transparency, and compliance, ensuring a robust, compliant, and efficient operating model.
 
-#### Required By
+#### Compliance Requirement
 
-{% table / %}
+{% compliance sources=[ { name: "GDPR", required: "N" }, { name: "OWASP SAMM", required: "N" }, { name: "NIST SSDF", required: "Y" } ] / %}
 
 ### [PSCF-RM-CCI]	Continuous Capability Improvement
 

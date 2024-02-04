@@ -1,6 +1,6 @@
 import { Callout } from '@/components/Callout'
 import { Video } from '@/components/Video'
-import { Table } from '@/components/Table'
+import { Compliance } from '@/components/Compliance'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
@@ -38,12 +38,12 @@ const tags = {
       </figure>
     ),
   },
-  table: {
+  "compliance": {
     selfClosing: true,
     attributes: {
-        
+        sources: { type: String }
     },
-    render: Table,
+    render: Compliance,
   },
   'quick-links': {
     render: QuickLinks,
