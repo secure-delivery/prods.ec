@@ -41,7 +41,7 @@ const tags = {
   "compliance": {
     selfClosing: true,
     attributes: {
-        sources: { type: String }
+        capability_id: { type: String }
     },
     render: Compliance,
   },
