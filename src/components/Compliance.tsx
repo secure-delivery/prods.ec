@@ -1,7 +1,9 @@
-import data from "../app/pscf/data/regulatory-mappings.json"
+import data from "../app/pscf/data/capabilities.json"
 
 interface ComplianceMappings {
-    [key: string]: {name: string, required: string}[]
+    [key: string]: {
+        [key: string]: {name: string, required: string}[]
+    }
 }
 
 var mappings: ComplianceMappings = data
@@ -24,7 +26,7 @@ var mappings: ComplianceMappings = data
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
-                        {mappings[capability_id].map((source) => (
+                        {mappings[capability_id]["regulations"].map((source) => (
                         <tr key={source.name}>
                             <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm  text-gray-900 dark:text-white sm:pl-0">
                             {source.name}

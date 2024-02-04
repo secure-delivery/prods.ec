@@ -1,0 +1,32 @@
+{
+    "PSCF-RM-OOM": { 
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "Y" } ]
+    },
+    "PSCF-RM-CCI": {
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+    },
+    "PSCF-RM-TPC": {
+        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+    },
+    "PSCF-RM-TPD": {
+        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "N" } ]
+    },
+    "PSCF-RM-TPS": {
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "N" } ]
+    },
+    "PSCF-RM-CO": {
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+    },
+    "PSCF-RM-DPO": {
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+    },
+    "PSCF-RM-BIA": {
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "N" } ]
+    },
+    "PSCF-RM-DIA": {
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "N" } ]
+    },
+    "PSCF-RM-TI": {
+        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+    }
+}
