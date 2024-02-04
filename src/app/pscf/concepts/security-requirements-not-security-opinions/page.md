@@ -23,7 +23,7 @@ Each framework or standard refers to these capabilities in its own way and place
 As we analyse each framework or standard, we capture its emphasis by quantifying how effective (or "mature") it requires you to be at that security capability. So, when you appraise your organisation against the PSCF, you can see how well-prepared you are to adopt a compliance framework or industry standard!
 {% /callout %}
 
-The PSCF is a type of [Meta-analysis](https://en.wikipedia.org/wiki/Meta-analysis) across multiple bodies of work to surface precisely the collective requirements that define Best Practice.
+The PSCF is a type of [Meta-analysis](https://en.wikipedia.org/wiki/Meta-analysis) across multiple bodies of work to determine the collective requirements that define Best Practice.
 
 ![A process diagram of how the PSCF derives security capabilites from regulatory frameworks and industry standards](/images/pscf-meta-analysis.png)
 
