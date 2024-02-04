@@ -1,32 +1,52 @@
 {
     "PSCF-RM-OOM": { 
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "Y" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "Y" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "Y" }, { "name": "Product", "responsible": "" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-CCI": {
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "Y" }, { "name": "Product", "responsible": "" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-TPC": {
-        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "Y" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-TPD": {
-        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "N" } ]
+        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "N" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "Y" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-TPS": {
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "N" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "N" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "Y" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-CO": {
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-DPO": {
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-BIA": {
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "N" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "N" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-DIA": {
-        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "N" } ]
+        "regulations": [ { "name": "GDPR", "required": "Y" }, { "name": "OWASP SAMM", "required": "N" }, { "name": "NIST SSDF", "required": "N" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     },
     "PSCF-RM-TI": {
-        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ]
+        "regulations": [ { "name": "GDPR", "required": "N" }, { "name": "OWASP SAMM", "required": "Y" }, { "name": "NIST SSDF", "required": "Y" } ],
+        "accountability": [ { "name": "Organisational Lead", "accountable": "Y" }, { "name": "Product Lead", "accountable": "" }, { "name": "Technical Lead", "accountable": "" } ],
+        "responsibility": [ { "name": "Leadership", "responsible": "" }, { "name": "Product", "responsible": "Y" }, { "name": "Development", "responsible": "" }, { "name": "Operations", "responsible": "" } ]
     }
 }

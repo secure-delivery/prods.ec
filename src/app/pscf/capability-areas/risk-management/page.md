@@ -41,6 +41,14 @@ Choosing the right structure and processes to focus on within the OOM is essenti
 
 {% compliance capability_id="PSCF-RM-OOM" / %}
 
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-OOM" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-OOM" / %}
+
 ### [PSCF-RM-CCI]	Continuous Capability Improvement
 
 _The capability to evaluate capabilities in this framework that require improvement and apply improvements over time._
@@ -56,6 +64,14 @@ As the world and technology evolve, so must our security practices to prevent th
 #### Compliance Requirement
 
 {% compliance capability_id="PSCF-RM-CCI" / %}
+
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-CCI" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-CCI" / %}
 
 ### [PSCF-RM-TPC]	Third-Party Components
 
@@ -75,6 +91,14 @@ Understanding the importance of having a robust process to assess and authorize 
 
 {% compliance capability_id="PSCF-RM-TPC" / %}
 
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-TPC" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-TPC" / %}
+
 ### [PSCF-RM-TPD]	Third-Party Software Development Services
 
 _The capability to evaluate and select secure third-party development services suppliers._
@@ -93,6 +117,14 @@ It is important to clearly define ownership and usage rights in contractual agre
 
 {% compliance capability_id="PSCF-RM-TPD" / %}
 
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-TPD" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-TPD" / %}
+
 ### [PSCF-RM-TPS]	Third-Party Software-as-a-Service
 
 _The capability to evaluate and select secure SaaS offerings from third parties._
@@ -108,6 +140,14 @@ The selection process requires careful consideration because these SaaS offering
 #### Compliance Requirement
 
 {% compliance capability_id="PSCF-RM-TPS" / %}
+
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-TPS" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-TPS" / %}
 
 ### [PSCF-RM-CO]	Compliance Obligations
 
@@ -125,6 +165,14 @@ This capability requires a thorough understanding of what each set of compliance
 
 {% compliance capability_id="PSCF-RM-CO" / %}
 
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-CO" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-CO" / %}
+
 ### [PSCF-RM-DPO]	Data Processing Obligations
 
 _The capability to define, understand and apply your obligations for data processing to your product delivery process._
@@ -138,6 +186,14 @@ Part of an organization's broader compliance obligations, requiring a clear unde
 #### Compliance Requirement
 
 {% compliance capability_id="PSCF-RM-DPO" / %}
+
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-DPO" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-DPO" / %}
 
 ### [PSCF-RM-BIA]	Business Impact Assessment
 
@@ -155,6 +211,14 @@ This capability involves assessing how different levels of security incidents ca
 
 {% compliance capability_id="PSCF-RM-BIA" / %}
 
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-BIA" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-BIA" / %}
+
 ### [PSCF-RM-DIA]	Data Protection Impact Assessment
 
 _The capability to analyse the potential impact to the data subject that a failure of data protection would have._
@@ -168,6 +232,14 @@ This capability is centered on meticulously evaluating the data processing activ
 #### Compliance Requirement
 
 {% compliance capability_id="PSCF-RM-DIA" / %}
+
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-DIA" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-DIA" / %}
 
 ### [PSCF-RM-TI]	Threat Intelligence
 
@@ -186,3 +258,11 @@ Effective threat intelligence is crucial in proactively identifying and mitigati
 #### Compliance Requirement
 
 {% compliance capability_id="PSCF-RM-TI" / %}
+
+#### Accountability
+
+{% accountability capability_id="PSCF-RM-TI" / %}
+
+#### Responsibility
+
+{% responsibility capability_id="PSCF-RM-TI" / %}

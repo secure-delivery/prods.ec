@@ -1,6 +1,8 @@
 import { Callout } from '@/components/Callout'
 import { Video } from '@/components/Video'
 import { Compliance } from '@/components/Compliance'
+import { Accountability } from '@/components/Accountability'
+import { Responsibility } from '@/components/Responsibility'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
@@ -44,6 +46,20 @@ const tags = {
         capability_id: { type: String }
     },
     render: Compliance,
+  },
+  "accountability": {
+    selfClosing: true,
+    attributes: {
+        capability_id: { type: String }
+    },
+    render: Accountability,
+  },
+  "responsibility": {
+    selfClosing: true,
+    attributes: {
+        capability_id: { type: String }
+    },
+    render: Responsibility,
   },
   'quick-links': {
     render: QuickLinks,
