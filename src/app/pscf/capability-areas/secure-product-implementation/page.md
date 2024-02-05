@@ -23,7 +23,7 @@ These capabilities empower teams to create products that are not only compliant 
 
 ## Data Classification [PSCF&#8209;SPI&#8209;DC]
 
-_PLACEHOLDER_
+_The capability to maintain a Data Catalogue of data in use by your product that records its criticality, sensitivity and requirement_
 
 {% video src="https://www.youtube.com/embed/FLdaaznIfJI?si=R9FMzOg9Oe3WzaA2" /%}
 
@@ -44,7 +44,7 @@ _PLACEHOLDER_
 
 ##  Functional Requirement Analysis [PSCF&#8209;SPI&#8209;FRA]
 
-_PLACEHOLDER_
+_The capability to analyse functional product requirements for security requirements arising_
 
 {% video src="https://www.youtube.com/embed/uTaOsE7nj4w?si=8TZwrgrsW9LbW8F-" /%}
 
@@ -65,7 +65,7 @@ _PLACEHOLDER_
 
 ##  Agile Threat Modelling [PSCF&#8209;SPI&#8209;ATM]
 
-_PLACEHOLDER_
+_The capability to evaluate product designs for their resilience to security threats_
 
 {% video src="https://www.youtube.com/embed/U9BnlBWeAfE?si=Ng3Kp9MFqLgrKVKM" /%}
 
@@ -86,7 +86,7 @@ _PLACEHOLDER_
 
 ##  Component Management [PSCF&#8209;SPI&#8209;CM]
 
-_PLACEHOLDER_
+_The capability to evaluate, select and maintain secure product components used by your product_
 
 {% video src="https://www.youtube.com/embed/8UmJDh0c_IQ?si=7DuBSqzl-dXdMkYo" /%}
 
@@ -107,7 +107,7 @@ _PLACEHOLDER_
 
 ## Secure Coding Practices [PSCF&#8209;SPI&#8209;SCP]
 
-_PLACEHOLDER_
+_The capability to define, understand and apply secure coding practices to the creation of source code for use in the organisation's products_
 
 ### Capability Overview
 

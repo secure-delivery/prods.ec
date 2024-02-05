@@ -23,7 +23,7 @@ These capabilities are pivotal in identifying any discrepancies, weaknesses, or 
 
 ## Component Security Testing [PSCF&#8209;QC&#8209;CST]
 
-_PLACEHOLDER_
+_The capability to analyse products for security issues in source code and included libraries_
 
 {% video src="https://www.youtube.com/embed/hRUVooGHZ3A?si=YBe7WJoSguf3V2o4" /%}
 
@@ -43,7 +43,7 @@ _PLACEHOLDER_
 
 ## Exploratory Security Testing [PSCF&#8209;QC&#8209;EST]
 
-_PLACEHOLDER_
+_The capability to analyse products for security issues in running systems_
 
 {% video src="https://www.youtube.com/embed/4g0gQE-yjWk?si=QenWsdN5XBUD6W6R" /%}
 
@@ -63,7 +63,7 @@ _PLACEHOLDER_
 
 ## Security Defect Management [PSCF&#8209;QC&#8209;SDM]
 
-_PLACEHOLDER_
+_The capability to evaluate findings from security checks through to resolution_
 
 {% video src="https://www.youtube.com/embed/32JSv4TEwMs?si=OjX51BmPDQ6895yg" /%}
 

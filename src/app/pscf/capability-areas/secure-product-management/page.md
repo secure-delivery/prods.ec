@@ -23,7 +23,7 @@ These capabilities are critical for maintaining the integrity, confidentiality, 
 
 ##  Recommended Components [PSCF&#8209;SPM&#8209;RC]
 
-_PLACEHOLDER_
+_The capability to evaluate and select secure recommended components suitable for use in the organisation's products_
 
 {% video src="https://www.youtube.com/embed/2rrUEG2euJ0?si=kZ1y--mPS8zp_IsZ" /%}
 
@@ -43,7 +43,7 @@ _PLACEHOLDER_
 
 ##  Recommended Shared Security Services [PSCF&#8209;SPM&#8209;RSS]
 
-_PLACEHOLDER_
+_The capability to evaluate and select shared security services suitable for use in the organisation's products_
 
 {% video src="https://www.youtube.com/embed/gglamgyUd-4?si=y-fkMFsPMAv-rLOT" /%}
 
@@ -63,7 +63,7 @@ _PLACEHOLDER_
 
 ##  Delivery Metrics [PSCF&#8209;SPM&#8209;DM]
 
-_PLACEHOLDER_
+_The capability to quantitatively evaluate the efficiency of delivery capabilities_
 
 {% video src="https://www.youtube.com/embed/1QMm8jMnBxg?si=Y01JzbKxbA7bPEUi" /%}
 
@@ -83,7 +83,7 @@ _PLACEHOLDER_
 
 ##  Quality Metrics [PSCF&#8209;SPM&#8209;QM]
 
-_PLACEHOLDER_
+_The capability to quantitatively evaluate all aspects of your product's quality_
 
 {% video src="https://www.youtube.com/embed/q1vm7NLeuoI?si=C3glbI08DfWqLUwR" /%}
 
@@ -103,7 +103,7 @@ _PLACEHOLDER_
 
 ##  Product Operating Model [PSCF&#8209;SPM&#8209;POM]
 
-_PLACEHOLDER_
+_The capability to analyse your products and define their scope, processes and operating requirements across their lifecycle_
 
 {% video src="https://www.youtube.com/embed/P6HThvtTVfA?si=WugeB_QsFNsjsDyZ" /%}
 
@@ -123,7 +123,7 @@ _PLACEHOLDER_
 
 ##  Minimum Application Requirements For Security [PSCF&#8209;SPM&#8209;MAR]
 
-_PLACEHOLDER_
+_The capability to evaluate and select a list of minimum security requirements suitable for use in the organisation's products_
 
 {% video src="https://www.youtube.com/embed/Z-aIksPUGVg?si=nZ6aDAWUHJMZfMkv" /%}
 

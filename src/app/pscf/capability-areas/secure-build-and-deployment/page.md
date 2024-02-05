@@ -23,7 +23,7 @@ These capabilities are pivotal for automating and reinforcing security measures 
 
 ## Dependency Management [PSCF&#8209;SBD&#8209;DM]
 
-_PLACEHOLDER_
+_The capability to evaluate and select secure software dependencies used by your product_
 
 {% video src="https://www.youtube.com/embed/BSQMZJBTaGc?si=gWmrDWCgcJj_r4R4" /%}
 
@@ -43,7 +43,7 @@ _PLACEHOLDER_
 
 ## Build Process [PSCF&#8209;SBD&#8209;BP]
 
-_PLACEHOLDER_
+_The capability to securely assemble product artefacts from their codebases and dependencies_
 
 {% video src="https://www.youtube.com/embed/FuVi71PzYjw?si=jbBdhb-NmDG15Z4-" /%}
 
@@ -63,7 +63,7 @@ _PLACEHOLDER_
 
 ## Artifact Integrity [PSCF&#8209;SBD&#8209;AI]
 
-_PLACEHOLDER_
+_The capability to use product artefacts from trusted sources and evaluate any that change_
 
 {% video src="https://www.youtube.com/embed/cavvIhxua7g?si=xNstMvVTrQ-Y998E" /%}
 
@@ -83,7 +83,7 @@ _PLACEHOLDER_
 
 ## Data Intergrity [PSCF&#8209;SBD&#8209;DI]
 
-_PLACEHOLDER_
+_The capability to use data in your product that is obtained from and stored in trusted sources and evaluate any changes_
 
 {% video src="https://www.youtube.com/embed/WEvcK80i2NY?si=ZLjO8VJrf85Eox-p" /%}
 
@@ -103,7 +103,7 @@ _PLACEHOLDER_
 
 ## Secrets Management [PSCF&#8209;SBD&#8209;SM]
 
-_PLACEHOLDER_
+_The capability to restrict access to product secrets to only when required by those people and systems that need them_
 
 {% video src="https://www.youtube.com/embed/CNnJIOSCmyE?si=IgUnRe7nsbbmBdue" /%}
 
@@ -123,7 +123,7 @@ _PLACEHOLDER_
 
 ## Secure Coding Practices [PSCF&#8209;SBD&#8209;DP]
 
-_PLACEHOLDER_
+_The capability to securely deploy a product and its components from a known set of artefacts_
 
 ### Capability Overview
 

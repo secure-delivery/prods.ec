@@ -23,7 +23,7 @@ These capabilities are crucial for maintaining a proactive stance in product man
 
 ## Environment Management [PSCF&#8209;OV&#8209;EM]
 
-_PLACEHOLDER_
+_The capability to apply secure system configurations and evaluate any that change_
 
 {% video src="https://www.youtube.com/embed/cG4nQLV-tas?si=HE9i0QO8WZeH_Blj" /%}
 
@@ -43,7 +43,7 @@ _PLACEHOLDER_
 
 ## Incident Detection [PSCF&#8209;OV&#8209;ID]
 
-_PLACEHOLDER_
+_The capability to analyse product events and evaluate them for those that indicate a security incident_
 
 {% video src="https://www.youtube.com/embed/XrGPMdrsnJM?si=1Xz_-L3h8PiohER5" /%}
 
@@ -63,7 +63,7 @@ _PLACEHOLDER_
 
 ## Incident Response [PSCF&#8209;OV&#8209;IR]
 
-_PLACEHOLDER_
+_The capability to apply appropriate responses to identified security incidents_
 
 {% video src="https://www.youtube.com/embed/x3lte4VYxh4?si=LLkB--U6zdv9uJO3" /%}
 
