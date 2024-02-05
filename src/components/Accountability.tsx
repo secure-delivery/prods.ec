@@ -11,6 +11,7 @@ interface Capabilities {
 var mappings: Capabilities = data
 
   export function Accountability({capability_id}: { capability_id: string }) {
+    if (!mappings[capability_id]) return
     return (
 
         <div className="flow-root">
