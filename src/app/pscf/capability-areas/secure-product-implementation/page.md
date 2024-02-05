@@ -29,6 +29,8 @@ _The capability to maintain a Data Catalogue of data in use by your product that
 
 ### Capability Overview
 
+Data classification is a critical process in managing and securing an organization's information assets. It involves categorizing data based on its level of sensitivity, regulatory requirements, and business value. This process is essential for ensuring that sensitive data, such as personal identifiable information (PII), is adequately protected and handled in compliance with legal and regulatory standards.
+
 ### Compliance Requirement
 
 {% compliance capability_id="PSCF-SPI-DC" / %}
@@ -41,14 +43,15 @@ _The capability to maintain a Data Catalogue of data in use by your product that
 
 {% responsibility capability_id="PSCF-SPI-DC" / %}
 
-
-##  Functional Requirement Analysis [PSCF&#8209;SPI&#8209;FRA]
+## Functional Requirement Analysis [PSCF&#8209;SPI&#8209;FRA]
 
 _The capability to analyse functional product requirements for security requirements arising_
 
 {% video src="https://www.youtube.com/embed/uTaOsE7nj4w?si=8TZwrgrsW9LbW8F-" /%}
 
 ### Capability Overview
+
+Functional requirement analysis is a systematic process of identifying and documenting the functionalities required for a software system. This process is vital to ensure that the software meets its intended purpose and user needs. It is also crucial for identifying security requirements that need to be integrated into these functionalities.
 
 ### Compliance Requirement
 
@@ -71,6 +74,10 @@ _The capability to evaluate product designs for their resilience to security thr
 
 ### Capability Overview
 
+Agile threat modelling is an approach to identify and address potential security threats in a software development environment that embraces agile methodologies. It is essential for proactively identifying security vulnerabilities and ensuring the software's resilience against attacks.
+
+Continuous assessment of threats throughout the development process aligns with the agile principles of iterative development, enabling teams to integrate security considerations into the development lifecycle effectively. This approach helps in identifying potential security issues early and provides a framework for addressing them promptly.
+
 ### Compliance Requirement
 
 {% compliance capability_id="PSCF-SPI-ATM" / %}
@@ -83,7 +90,6 @@ _The capability to evaluate product designs for their resilience to security thr
 
 {% responsibility capability_id="PSCF-SPI-ATM" / %}
 
-
 ##  Component Management [PSCF&#8209;SPI&#8209;CM]
 
 _The capability to evaluate, select and maintain secure product components used by your product_
@@ -91,6 +97,8 @@ _The capability to evaluate, select and maintain secure product components used 
 {% video src="https://www.youtube.com/embed/8UmJDh0c_IQ?si=7DuBSqzl-dXdMkYo" /%}
 
 ### Capability Overview
+
+Component management is the practice of managing software components to ensure they are up-to-date, secure, and efficiently integrated into software systems. This practice is crucial for maintaining the security and performance of software applications.
 
 ### Compliance Requirement
 
@@ -104,12 +112,13 @@ _The capability to evaluate, select and maintain secure product components used 
 
 {% responsibility capability_id="PSCF-SPI-CM" / %}
 
-
 ## Secure Coding Practices [PSCF&#8209;SPI&#8209;SCP]
 
 _The capability to define, understand and apply secure coding practices to the creation of source code for use in the organisation's products_
 
 ### Capability Overview
+
+Secure Coding Practices are the backbone of a robust and resilient product development lifecycle. This discipline involves the adoption and implementation of a set of comprehensive guidelines and techniques that ensure the source code for products is not only functional and efficient but also fortified against the myriad of security threats prevalent in today's digital landscape. It's about writing code with the foresight of potential security risks, ensuring that every line not only serves its purpose in functionality but also stands as a bulwark against vulnerabilities.
 
 ### Compliance Requirement
 

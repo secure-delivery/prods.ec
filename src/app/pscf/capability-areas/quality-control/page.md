@@ -29,6 +29,8 @@ _The capability to analyse products for security issues in source code and inclu
 
 ### Capability Overview
 
+Component Security Testing is vital in ensuring that the individual components within a software system are secure. In the modern development ecosystem, where applications are often built by assembling various components like libraries, frameworks, and modules, the security of each component is crucial. Vulnerabilities in any single component can compromise the entire system, making it essential to thoroughly test each one for security issues.
+
 ### Compliance Requirement
 
 {% compliance capability_id="PSCF-QC-CST" / %}
@@ -49,6 +51,10 @@ _The capability to analyse products for security issues in running systems_
 
 ### Capability Overview
 
+Exploratory Security Testing is an approach that combines security testing with explorative, often manual, techniques. This type of testing is crucial because it allows testers to uncover vulnerabilities that automated tools might miss, providing a more comprehensive understanding of a system's security posture.
+
+Often known as Penetration testing, testers actively engage with the software, trying out different scenarios, and using their expertise and creativity to identify potential security issues. This method is particularly effective in finding complex security vulnerabilities that require a human touch, such as business logic errors or sophisticated attack vectors.
+
 ### Compliance Requirement
 
 {% compliance capability_id="PSCF-QC-EST" / %}
@@ -68,6 +74,10 @@ _The capability to evaluate findings from security checks through to resolution_
 {% video src="https://www.youtube.com/embed/32JSv4TEwMs?si=OjX51BmPDQ6895yg" /%}
 
 ### Capability Overview
+
+Security Defect Management is a critical process in the software development lifecycle. It involves the identification, prioritization, and remediation of security-related defects in software products. Effective management of security defects is essential to mitigate risks and maintain the integrity of the software.
+
+It is more than just fixing bugs; it's about understanding the impact of those bugs on the overall security of the product and ensuring they are addressed appropriately. This process involves triaging reported security issues, prioritizing them based on severity and impact, and systematically resolving them.
 
 ### Compliance Requirement
 

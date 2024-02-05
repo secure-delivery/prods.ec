@@ -29,6 +29,10 @@ _The capability to apply secure system configurations and evaluate any that chan
 
 ### Capability Overview
 
+Environment Management is a critical aspect of product security, focusing on the secure configuration of software products and their components. In today's digital world, where cybersecurity threats are omnipresent, having robust environment management practices is not just beneficial but essential. It ensures that products are not only functionally effective but also secure from various cyber threats. This capability is particularly important because default configurations often prioritize ease of use over security, leaving systems vulnerable to attacks.
+
+Environment Management involves understanding and modifying the default configurations of a product's libraries and components to enhance security. The challenge lies in maintaining these secure configurations amidst frequent product changes and potential attacks aimed at weakening system configurations. Effective environment management requires continuous monitoring for any configuration changes, known as "configuration drift," and evaluating their impact on product security. It's about striking a balance between usability and security, ensuring that products are not only easy to use but also resilient against cyber threats.
+
 ### Compliance Requirement
 
 {% compliance capability_id="PSCF-OV-EM" / %}
@@ -49,6 +53,10 @@ _The capability to analyse product events and evaluate them for those that indic
 
 ### Capability Overview
 
+Incident Detection is a key component in maintaining the security of software products. In an environment where cyber threats are constantly evolving, the ability to quickly detect security incidents can mean the difference between a minor disruption and a major breach. The challenge lies in the extended periods during which breaches can remain undetected, allowing attackers to cause significant damage.
+
+Focusing on enhancing visibility into product behavior to identify any security anomalies swiftly. This capability requires a deep understanding of normal system behavior to detect deviations effectively. It involves ensuring the quality of product logs, setting up automated monitoring and alerting systems, and regularly reviewing logs to identify patterns of abnormal activity. Effective incident detection reduces the time attackers remain in the system and limits the extent of damage.
+
 ### Compliance Requirement
 
 {% compliance capability_id="PSCF-OV-ID" / %}
@@ -68,6 +76,10 @@ _The capability to apply appropriate responses to identified security incidents_
 {% video src="https://www.youtube.com/embed/x3lte4VYxh4?si=LLkB--U6zdv9uJO3" /%}
 
 ### Capability Overview
+
+Incident Response is crucial in the landscape of cybersecurity. It's not just about responding to incidents but doing so in a manner that is swift, effective, and minimizes damage. A robust incident response capability is essential for any organization to maintain trust with customers and ensure the continuity of operations.
+
+This capability encompasses identifying incidents, containing and eradicating threats, and then recovering from the incident. The goal is to handle incidents in a way that reduces their impact and learns from them to prevent future occurrences. It's about being prepared, responsive, and adaptive in the face of security threats.
 
 ### Compliance Requirement
 
