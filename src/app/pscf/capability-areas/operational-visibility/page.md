@@ -6,67 +6,77 @@ nextjs:
     description: A description of the Operational Visibility capability area.
 ---
 
-What this section is about.
+{% video src="https://www.youtube.com/embed/_WHDUzfZrmc?si=8FnifIfNWCEZeeDI" /%}
 
----
+## Area Overview
 
-## Heading
+Operational Visibility in product development is an essential facet that focuses on gaining a clear and comprehensive view of the product's performance and behavior in real-time operational settings. It's about having a transparent, eagle-eyed view over the entire operational spectrum of the product, ensuring that every pulse and signal is monitored, analyzed, and understood. This practice enables organizations to anticipate issues, fine-tune performance, and ensure that the product not only functions as intended but also adapts and evolves in alignment with user needs and environmental dynamics.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+These capabilities are crucial for maintaining a proactive stance in product management, allowing teams to swiftly identify and address potential issues, optimize performance, and enhance user experience. Operational Visibility is the watchtower that ensures smooth sailing of the product, alerting the crew at the slightest sign of turbulence or anomaly.
 
-### Subheading
+### Benefits
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+* **Proactive Issue Identification and Resolution:** Continuous monitoring and analysis enable early detection of potential issues, allowing for swift resolution before they escalate.
+* **Informed Decision-Making:** Real-time data and insights about the product's performance guide strategic decisions, ensuring that they are data-driven and aligned with actual operational realities.
+* **Enhanced User Experience:** Understanding real-world product usage and behavior facilitates targeted improvements and optimizations, leading to a better and more satisfying user experience.
+* **Operational Efficiency:** Insights gained from operational visibility can streamline processes, reduce downtime, and optimize resource utilization, contributing to overall operational efficiency and effectiveness.
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+## Environment Management [PSCF&#8209;OV&#8209;EM]
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+_PLACEHOLDER_
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% video src="https://www.youtube.com/embed/cG4nQLV-tas?si=HE9i0QO8WZeH_Blj" /%}
 
-### Subheading
+### Capability Overview
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Compliance Requirement
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+{% compliance capability_id="PSCF-OV-EM" / %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+### Accountability
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% accountability capability_id="PSCF-OV-EM" / %}
 
----
+### Responsibility
 
-## Heading
+{% responsibility capability_id="PSCF-OV-EM" / %}
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+## Incident Detection [PSCF&#8209;OV&#8209;ID]
 
-### Heading
+_PLACEHOLDER_
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+{% video src="https://www.youtube.com/embed/XrGPMdrsnJM?si=1Xz_-L3h8PiohER5" /%}
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+### Capability Overview
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
+### Compliance Requirement
 
-### Heading
+{% compliance capability_id="PSCF-OV-ID" / %}
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+### Accountability
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+{% accountability capability_id="PSCF-OV-ID" / %}
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+### Responsibility
+
+{% responsibility capability_id="PSCF-OV-ID" / %}
+
+## Incident Response [PSCF&#8209;OV&#8209;IR]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/x3lte4VYxh4?si=LLkB--U6zdv9uJO3" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-OV-IR" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-OV-IR" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-OV-IR" / %}

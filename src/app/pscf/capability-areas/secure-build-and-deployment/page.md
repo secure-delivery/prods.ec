@@ -6,67 +6,135 @@ nextjs:
     description: A description of the Secure Build & Deployment capability area.
 ---
 
-What this section is about.
+{% video src="https://www.youtube.com/embed/ksCcMQ3xEds?si=5ggsu-Lm9ie-ZuDa" /%}
 
----
+## Area Overview
 
-## Heading
+Secure Build & Deployment is a vital component in the product development pipeline, ensuring that the security measures ingrained during the design and implementation phases are accurately translated into the final product. This practice involves rigorous procedures and checks to maintain the integrity and security of the product from the build environment to its deployment in a live setting. It's about creating a fortified bridge between the development of secure code and its operation in the real world, ensuring that this transition is seamless, secure, and devoid of vulnerabilities that can be exploited.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+These capabilities are pivotal for automating and reinforcing security measures throughout the build and deployment processes. By integrating robust security practices into these stages, organizations can safeguard their products against configuration errors, unauthorized access, and other security threats that can compromise the product post-deployment.
 
-### Subheading
+### Benefits
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+* **Continuous Security Assurance:** Secure Build & Deployment practices ensure that security is an ongoing priority, not just at certain stages, providing continuous protection throughout the product's lifecycle.
+* **Streamlined Deployment Processes:** Integrating security into the build and deployment processes helps in automating security checks and controls, making these processes more efficient and less prone to human error.
+* **Early Detection of Vulnerabilities:** Regular and automated security assessments during the build and deployment stages allow for the early detection and remediation of vulnerabilities, reducing potential exploitation risks.
+* **Confidence in Product Integrity:** Ensures that the product deployed in the production environment mirrors the security and integrity of the product conceived during the design phase, fostering confidence among stakeholders and users.
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+## Dependency Management [PSCF&#8209;SBD&#8209;DM]
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+_PLACEHOLDER_
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% video src="https://www.youtube.com/embed/BSQMZJBTaGc?si=gWmrDWCgcJj_r4R4" /%}
 
-### Subheading
+### Capability Overview
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Compliance Requirement
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+{% compliance capability_id="PSCF-SBD-DM" / %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+### Accountability
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% accountability capability_id="PSCF-SBD-DM" / %}
 
----
+### Responsibility
 
-## Heading
+{% responsibility capability_id="PSCF-SBD-DM" / %}
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+## Build Process [PSCF&#8209;SBD&#8209;BP]
 
-### Heading
+_PLACEHOLDER_
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+{% video src="https://www.youtube.com/embed/FuVi71PzYjw?si=jbBdhb-NmDG15Z4-" /%}
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+### Capability Overview
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
+### Compliance Requirement
 
-### Heading
+{% compliance capability_id="PSCF-SBD-BP" / %}
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+### Accountability
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+{% accountability capability_id="PSCF-SBD-BP" / %}
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+### Responsibility
+
+{% responsibility capability_id="PSCF-SBD-BP" / %}
+
+## Artifact Integrity [PSCF&#8209;SBD&#8209;AI]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/cavvIhxua7g?si=xNstMvVTrQ-Y998E" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SBD-AI" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SBD-AI" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SBD-AI" / %}
+
+## Data Intergrity [PSCF&#8209;SBD&#8209;DI]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/WEvcK80i2NY?si=ZLjO8VJrf85Eox-p" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SBD-DI" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SBD-DI" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SBD-DI" / %}
+
+## Secrets Management [PSCF&#8209;SBD&#8209;SM]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/CNnJIOSCmyE?si=IgUnRe7nsbbmBdue" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SBD-SM" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SBD-SM" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SBD-SM" / %}
+
+## Secure Coding Practices [PSCF&#8209;SBD&#8209;DP]
+
+_PLACEHOLDER_
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SBD-DP" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SBD-DP" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SBD-DP" / %}

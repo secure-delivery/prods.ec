@@ -6,67 +6,119 @@ nextjs:
     description: A description of the Secure Product Implmentation capability area.
 ---
 
-What this section is about.
+{% video src="https://www.youtube.com/embed/RBocmSoJ4Dw?si=0QzH8uzqrqVGjOkd" /%}
 
----
+## Area Overview
 
-## Heading
+Secure Product Implementation is an essential practice in the realm of product development, focusing on embedding security principles from the earliest stages of design and carrying these principles throughout the entire implementation process. This proactive approach ensures that products are not only functional and user-friendly but inherently secure, resilient, and reliable. By integrating security into the very fabric of the product's architecture and design, organizations can preemptively address potential vulnerabilities and mitigate risks before they escalate into more significant threats.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+These capabilities empower teams to create products that are not only compliant with the latest security standards but are also equipped to withstand the evolving and sophisticated threats in the digital landscape. Secure Product Implementation is a strategic investment, fostering innovation and trust, and setting a solid foundation for the secure evolution of the product over its lifecycle.
 
-### Subheading
+### Benefits
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+* **Proactive Threat Mitigation:** By considering security at the earliest stages of product design and implementation, potential threats and vulnerabilities can be identified and mitigated upfront, reducing the risk of future breaches and attacks.
+* **Compliance and Standard Adherence:** Ensures that products are designed and built in accordance with industry standards and regulatory requirements, mitigating legal and compliance risks.
+* **Optimized Development Lifecycle:** Embedding security early in the product design and implementation phases streamlines the development process, reduces the need for costly redesigns, and accelerates time-to-market.
+* **Trust and Brand Loyalty:** Products designed and implemented with security as a priority instill confidence among customers and partners, enhancing brand reputation and customer loyalty.
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+## Data Classification [PSCF&#8209;SPI&#8209;DC]
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+_PLACEHOLDER_
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% video src="https://www.youtube.com/embed/FLdaaznIfJI?si=R9FMzOg9Oe3WzaA2" /%}
 
-### Subheading
+### Capability Overview
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Compliance Requirement
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+{% compliance capability_id="PSCF-SPI-DC" / %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+### Accountability
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% accountability capability_id="PSCF-SPI-DC" / %}
 
----
+### Responsibility
 
-## Heading
+{% responsibility capability_id="PSCF-SPI-DC" / %}
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
 
-### Heading
+##  Functional Requirement Analysis [PSCF&#8209;SPI&#8209;FRA]
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+_PLACEHOLDER_
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+{% video src="https://www.youtube.com/embed/uTaOsE7nj4w?si=8TZwrgrsW9LbW8F-" /%}
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
+### Capability Overview
 
-### Heading
+### Compliance Requirement
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+{% compliance capability_id="PSCF-SPI-FRA" / %}
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+### Accountability
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+{% accountability capability_id="PSCF-SPI-FRA" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SPI-FRA" / %}
+
+
+##  Agile Threat Modelling [PSCF&#8209;SPI&#8209;ATM]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/U9BnlBWeAfE?si=Ng3Kp9MFqLgrKVKM" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SPI-ATM" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SPI-ATM" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SPI-ATM" / %}
+
+
+##  Component Management [PSCF&#8209;SPI&#8209;CM]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/8UmJDh0c_IQ?si=7DuBSqzl-dXdMkYo" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SPI-CM" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SPI-CM" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SPI-CM" / %}
+
+
+## Secure Coding Practices [PSCF&#8209;SPI&#8209;SCP]
+
+_PLACEHOLDER_
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-SPI-SCP" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-SPI-SCP" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-SPI-SCP" / %}

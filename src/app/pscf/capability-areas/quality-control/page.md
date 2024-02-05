@@ -6,67 +6,77 @@ nextjs:
     description: A description of the Quality Control capability area
 ---
 
-What this section is about.
+{% video src="https://www.youtube.com/embed/-itBg7_1qiQ?si=krCXinDEZCcwvPk8" /%}
 
----
+## Area Overview
 
-## Heading
+Quality Control in the realm of product development is a critical discipline focused on maintaining and enhancing the integrity, reliability, and performance of the product. It's not just about finding defects or issues; it's about ensuring that the product meets the highest standards of quality from every angle. This crucial phase acts as a gatekeeper, rigorously testing and scrutinizing every component of the product to ensure that it not only meets the predefined standards and expectations but also surpasses them.
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+These capabilities are pivotal in identifying any discrepancies, weaknesses, or potential improvements in the product before it reaches the end-user. By implementing a robust Quality Control process, organizations can avoid costly recalls, maintain customer trust, and uphold their reputation in the market. It's a proactive commitment to excellence, ensuring that the final product is not just good but exceptional.
 
-### Subheading
+### Benefits
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+* **Enhanced Product Performance and Reliability:** Regular and thorough quality checks ensure that every aspect of the product is functioning optimally, enhancing overall performance and reliability.
+* **Customer Satisfaction and Loyalty:** Delivering products that consistently meet or exceed customer expectations fosters trust and loyalty, reinforcing the brand's reputation for quality.
+* **Reduction in Post-Release Issues:** Identifying and rectifying issues during the Quality Control phase significantly reduces the incidence of bugs and issues post-release, minimizing the need for patches and updates.
+* **Cost Efficiency:** Early detection and correction of defects or quality issues prevent costly fixes post-deployment and reduce the risk of warranty claims and returns.
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+## Component Security Testing [PSCF&#8209;QC&#8209;CST]
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+_PLACEHOLDER_
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% video src="https://www.youtube.com/embed/hRUVooGHZ3A?si=YBe7WJoSguf3V2o4" /%}
 
-### Subheading
+### Capability Overview
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+### Compliance Requirement
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+{% compliance capability_id="PSCF-QC-CST" / %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+### Accountability
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+{% accountability capability_id="PSCF-QC-CST" / %}
 
----
+### Responsibility
 
-## Heading
+{% responsibility capability_id="PSCF-QC-CST" / %}
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+## Exploratory Security Testing [PSCF&#8209;QC&#8209;EST]
 
-### Heading
+_PLACEHOLDER_
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+{% video src="https://www.youtube.com/embed/4g0gQE-yjWk?si=QenWsdN5XBUD6W6R" /%}
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+### Capability Overview
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
+### Compliance Requirement
 
-### Heading
+{% compliance capability_id="PSCF-QC-EST" / %}
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+### Accountability
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+{% accountability capability_id="PSCF-QC-EST" / %}
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+### Responsibility
+
+{% responsibility capability_id="PSCF-QC-EST" / %}
+
+## Security Defect Management [PSCF&#8209;QC&#8209;SDM]
+
+_PLACEHOLDER_
+
+{% video src="https://www.youtube.com/embed/32JSv4TEwMs?si=OjX51BmPDQ6895yg" /%}
+
+### Capability Overview
+
+### Compliance Requirement
+
+{% compliance capability_id="PSCF-QC-SDM" / %}
+
+### Accountability
+
+{% accountability capability_id="PSCF-QC-SDM" / %}
+
+### Responsibility
+
+{% responsibility capability_id="PSCF-QC-SDM" / %}
