@@ -16,7 +16,6 @@ export const navigation = [
       { title: 'Capabilities drive secure product', href: '/pscf/concepts/capabilities-drive-secure-products' },
       { title: 'Security is an aspect of software product quality', href: '/pscf/concepts/security-quality' },
       { title: 'Understanding, Information & Opportunity', href: '/pscf/concepts/understanding-information-opportunity' },
-      { title: 'Measuring capability effectiveness [TBD]', href: '/pscf/concepts/measuring-capabiility-effectiveness' },
       { title: 'Accountability & Reponsibility [TBD]', href: '/pscf/concepts/accountability-and-responsibility' },
     ],
   },
