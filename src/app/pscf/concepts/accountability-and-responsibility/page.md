@@ -3,70 +3,69 @@ title: Accountability & Responsibility
 nextjs:
   metadata:
     title: Accountability & Responsibility
-    description: Security programs fail when they don't communicate clear, fair and scalable accountabilities. This section defines what accountability and responsibility means and how they are most effectively used.
+    description: Security programs fail when they don't communicate clear, fair, scalable accountabilities. This section defines accountability and responsibility and how they are most effectively used.
 ---
 
-What this section is about.
+Security programs fail when they don't communicate clear, fair, scalable accountabilities and responsibilities. In the PSCF, we define accountability and responsibility and how they are most effectively used.
 
 ---
 
-## Heading
+## Defining accountability and responsibility
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+It's essential to be clear about who is accountable and who is responsible for security capabilities. Equally important is that everyone in your organisation understands what being accountable and being responsible means. In the PSCF we use the definition from [McGrath & Whitty's 2018 paper](https://research.usq.edu.au/download/55d83eed7ba13ad5f3a6f4aeb3e07456f18b3457085051d0d468498464b43020/509830/Accountability%20and%20responsibility%20defined%20-%20author%20post-print%20version%20with%202ECs.pdf), "Accountability and responsibility defined" in the International Journal of Managing Projects in Business.
 
-### Subheading
+### Accountability
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+**Accountability**: _liability for ensuring a task is satisfactorily done_.
 
-```shell
-npm install @tailwindlabs/cache-advance
-```
+**Accountable** : _having liability for ensuring a task is satisfactorily done._
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Only individuals can be accountable. If more than one person is accountable, then no one is.
 
-{% callout type="warning" title="Oh no! Something bad happened!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+{% callout title="Situation-oriented" %}
+Accountability is what happens after a situation occurs. It's who responds and takes ownership.
 {% /callout %}
 
-### Subheading
+### Responsibility
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+**Responsibility**: _an obligation to satisfactorily perform a task_.
 
-```js
-// cache-advance.config.js
-export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}
-```
+**Responsible**: _accepting an obligation to satisfactorily perform a task_.
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Groups of people can be responsible. In software development many people are often required to collaborate to satisfactorily perform a task.
 
-{% callout title="You should know!" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+{% callout title="Task-oriented" %}
+Every person on a team may be responsible for a task that’s required to complete a big project.
 {% /callout %}
 
----
+## Fairly and scalably assigning accountability and responsibility
 
-## Heading
+To be fairly held accountable or made responsible for a security capability's tasks, the individuals or groups need a minimum level of [Understanding, Information and Opportunity](/pscf/concepts/understanding-information-opportunity). When this is not understood or taken into account, organisations end up with very low security capability effectiveness.
 
-Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatibus dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatibus aut. Veniam ipsa voluptatem sed.
+### Understanding
 
-### Heading
+To be held accountable for ensuring a task is satisfactorily done, you don't need to understand the task well enough to carry it out yourself (_Understanding level 3+_) but you do need to understand the task well enough to identify that it is being done satisfactorily (_Understanding level 2_).
 
-Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.
+### Information
 
-Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.
+You also need information that shows you whether the task is being carried out at all and that the results of the task meet requirements. This information could take many forms and could be a dashboard, a regular report or visual confirmation in some cases.
 
-Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.
+### Opportunity
 
-### Heading
+The more things you're accountable or responsible for the more of your time it will take to deal with these things. If the people being held accountable or responsible simply don't have time to do everything they need to do then the organisation's expectations are not fair or scalable.
 
-Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.
+You need accountabilities and responsibilites that scale at least linearly as the organisation grows. With good use of automation and data presentation, you can achieve sub-linear scale as the organisation grows.
 
-Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.
+The most important aspect of opportunity for accountability is related to tools. A tool not often recognised is the tool of setting work priorities. **An accountable person must be able to set work priorities for the responsible group**. Without that tool available, they _cannot_ be held liable for ensuring a task is satisfactorily done.
 
-Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.
+If you have a person accountable for security desperately trying to persuade the responsible groups to do the security tasks they're responsible for, then you have a big problem.
+
+{% callout type="warning" title="Getting it wrong" %}
+A common mistake organisations make when implementing a software product security programme is to make a central application security team responsible for security tasks and a head of application security accountable for the security of delivered applications. This is neither fair nor scalable. A central appsec team can be an enabling team, but responsibility for security tasks must sit with the product delivery teams, and accountability for a software product's security must be with the product's lead decision-maker.
+{% /callout %}
+
+## Suggested accountabilities and responsibilities
+
+This framework comes with suggested fair and scalable accountabilities and responsibilities for all security capabilities. These suggestions are based on a _product-_ or _stream-aligned_ scalable team structure such as defined in the [Team Topologies](https://teamtopologies.com/) approach. If your delivery organisation is structured in this way, then you should be able to adopt these as they are. If your organisation has a different structure, then you will have to adapt them for your purposes.
+
+Bear in mind the guidance given in this section when you do this. Be rigorous in ensuring that accountabilities and responsibilities are fairly and scalably assigned or your product security programme will fail to be effective.
