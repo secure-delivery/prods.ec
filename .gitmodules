@@ -1,0 +1,3 @@
+[submodule "src/app/pscf"]
+	path = src/app/pscf
+	url = https://github.com/OWASP/PSCF.git
