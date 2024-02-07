@@ -6,9 +6,9 @@ Learn how to use the Product Security Capability Framework to lay the foundation
 
 {% quick-links %}
 
-{% quick-link title="Introduction" icon="installation" href="/pscf/intro/getting-started" description="What the framework is, why you need it and its goals." /%}
+{% quick-link title="Introduction" icon="installation" href="/pscf/intro/what-is-a-framework" description="What the framework is, why you need it and its goals." /%}
 
-{% quick-link title="Framework Core Concepts" icon="presets" href="/pscf/concepts/capabilities-drive-secure-products" description="The approach we've taken to ensure rigour and applicability." /%}
+{% quick-link title="Framework Core Concepts" icon="presets" href="/pscf/concepts/security-requirements-not-security-opinions" description="The approach we've taken to ensure rigour and applicability." /%}
 
 {% quick-link title="Framework Capability Areas" icon="plugins" href="/pscf/capability-areas/risk-management" description="Dive right into the capabilities in the framework." /%}
 
