@@ -2,7 +2,7 @@
 title: Welcome!
 ---
 
-Learn how to use the [OWASP Product Security Capability Framework](https://owasp.org/www-project-product-security-capabilities-framework/) to lay the foundations for secure, high-performance software product delivery. {% .lead %}
+Learn how to use the [OWASP Product Security Capability Framework](https://owasp.org/www-project-product-security-capability-framework/) to lay the foundations for secure, high-performance software product delivery. {% .lead %}
 
 {% quick-links %}
 
