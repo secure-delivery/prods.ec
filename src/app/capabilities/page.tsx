@@ -75,6 +75,7 @@ import {
   } from '@tanstack/react-table'
 import React from 'react'
 
+// This data structure is the capabilities shown in the table, one capability per row. Mappings are set dynamically.
 type Capability = {
     id: string
     name: string
@@ -317,6 +318,7 @@ const capabilityData: Capability[] = [
         }
     ]
 
+    // A mapping is a standardised data structure across all regulations and standards we've mapped in the PSCF
     type Mapping = {
         id: string
         description: string
@@ -3648,6 +3650,7 @@ const capabilityData: Capability[] = [
         }
     ]
 
+    // This data structure is used for the dropdown selected value to key into and change the mapping shown in the table
     interface Mappings {
         [key: string]: Mapping[]
     }
@@ -3660,12 +3663,14 @@ const capabilityData: Capability[] = [
         "samm3": SAMMLevel3Data
     }
 
+    // Set the default mapping to show in the table
     const tableData = capabilityData.map(capability => ({
         ...capability,
         mappings: mappingData["gdpr"].filter(mapping => mapping.pscfIds.includes(capability.id)),
     })
     )
 
+    // Set up all the table columns
     const columnHelper = createColumnHelper<Capability>()
 
     const columns = [
@@ -3684,12 +3689,6 @@ const capabilityData: Capability[] = [
           header: () => <span className="">Definition: The capability to...</span>,
           cell: info => <span className="italic">{info.getValue()}</span>,
         }),
-
-        // columnHelper.accessor(row => row.mappings.reduce((acc, cur) => `${acc} ${cur.id}`, ''), {
-        //     id: 'external_ids',
-        //     header: () => <span className="">External IDs</span>,
-        //     cell: info => <span>{info.getValue()}</span>,
-        // }),
        
         columnHelper.accessor('mappings', {
             id: 'mapped_ids',
@@ -3727,12 +3726,13 @@ const capabilityData: Capability[] = [
         }),
       ]
 
+// Renderrrrrr
 export default function Page() {
+
+    // Two bits of state, could it be one? Possibly but this seems to be the happy path for React
     const [selectedMapping, setSelectedMapping] = React.useState('gdpr');
-
-
     const [data, setTableData] = React.useState(() => [...tableData])
-    const rerender = React.useReducer(() => ({}), {})[1]
+
 
     const table = useReactTable({
         data,
@@ -3742,7 +3742,7 @@ export default function Page() {
 
     return (
         <div className="px-4 sm:px-6 lg:px-8 pt-8">
-            <div className="sm:flex sm:items-center">
+            <div className="sticky top-0 sm:flex sm:items-center">
                 <div className="sm:flex-auto">
                 <h1 className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">Capability Mappings</h1>
                 <label className="mt-2 text-sm text-gray-700 dark:text-gray-300">
@@ -3773,47 +3773,49 @@ export default function Page() {
             </div>
             <div className="mt-8 flow-root">
                 <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-            <table className="min-w-full divide-y divide-gray-300 dark:divide-gray-700">
-                <thead>
-                {table.getHeaderGroups().map(headerGroup => (
-                    <tr key={headerGroup.id}>
-                    {headerGroup.headers.map(header => (
-                        <th key={header.id} scope="col" className={classNames(
-                            header.column.columnDef.id === 'definition' ? 'hidden xl:table-cell' : '',
-                            header.column.columnDef.id === 'area' ? 'hidden lg:table-cell' : '',
-                            'px-3 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white'
-                        )}>
-                        {header.isPlaceholder
-                            ? null
-                            : flexRender(
-                                header.column.columnDef.header,
-                                header.getContext()
-                            )}
-                        </th>
-                    ))}
-                    </tr>
-                ))}
-                </thead>
-                <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
-                {table.getRowModel().rows.map(row => (
-                    <tr key={row.id}>
-                    {row.getVisibleCells().map(cell => (
-                        <td key={cell.id} className={classNames(
-                            cell.column.columnDef.id === 'definition' ? 'hidden xl:table-cell' : '',
-                            cell.column.columnDef.id === 'area' ? 'hidden lg:table-cell' : '',
-                            'px-3 py-4 text-sm text-gray-500 dark:text-gray-300 align-top'
-                        )}>
-                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                        </td>
-                    ))}
-                    </tr>
-                ))}
-                </tbody>
-            </table>
+                    <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+
+                        <table className="min-w-full divide-y divide-gray-300 dark:divide-gray-700">
+                            <thead>
+                            {table.getHeaderGroups().map(headerGroup => (
+                                <tr key={headerGroup.id}>
+                                {headerGroup.headers.map(header => (
+                                    <th key={header.id} scope="col" className={classNames(
+                                        header.column.columnDef.id === 'definition' ? 'hidden xl:table-cell' : '',
+                                        header.column.columnDef.id === 'area' ? 'hidden lg:table-cell' : '',
+                                        'px-3 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white'
+                                    )}>
+                                    {header.isPlaceholder
+                                        ? null
+                                        : flexRender(
+                                            header.column.columnDef.header,
+                                            header.getContext()
+                                        )}
+                                    </th>
+                                ))}
+                                </tr>
+                            ))}
+                            </thead>
+                            <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
+                            {table.getRowModel().rows.map(row => (
+                                <tr key={row.id}>
+                                {row.getVisibleCells().map(cell => (
+                                    <td key={cell.id} className={classNames(
+                                        cell.column.columnDef.id === 'definition' ? 'hidden xl:table-cell' : '',
+                                        cell.column.columnDef.id === 'area' ? 'hidden lg:table-cell' : '',
+                                        'px-3 py-4 text-sm text-gray-500 dark:text-gray-300 align-top'
+                                    )}>
+                                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                                    </td>
+                                ))}
+                                </tr>
+                            ))}
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
-    </div>
     )
   };
