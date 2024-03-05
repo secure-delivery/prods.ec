@@ -1,21 +1,33 @@
 "use client";
 
+import { StarIcon } from '@heroicons/react/20/solid'
+
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
   }
 
+function stars(amount: number) {
+
+    return (
+        <div className="flex gap-x-1 justify-center text-fuchsia-600">
+            {Array.from({ length: amount }, (_, i) => <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" key={i} />)}
+        </div>
+    )
+
+}
+
 function understandingText(level: number) {
     switch (level) {
         case 1:
-            return '1: Remember'
+            return 'Remember'
         case 2:
-            return '2: Understand'
+            return 'Understand'
         case 3:
-            return '3: Apply'
+            return 'Apply'
         case 4:
-            return '4: Analyse'
+            return 'Analyse'
         case 5:
-            return '5: Evaluate'
+            return 'Evaluate'
         default:
             return `${level}': Unknown'`
     }
@@ -24,15 +36,15 @@ function understandingText(level: number) {
 function informationText(level: number) {
     switch (level) {
         case 1:
-            return '1: Incidental'
+            return 'Incidental'
         case 2:
-            return '2: Owned '
+            return 'Owned '
         case 3:
-            return '3: Correlated'
+            return 'Correlated'
         case 4:
-            return '4: Structured'
+            return 'Structured'
         case 5:
-            return '5: Behaviour Changing'
+            return 'Behaviour Changing'
         default:
             return `${level}': Unknown'`
     }
@@ -41,15 +53,15 @@ function informationText(level: number) {
 function opportunityText(level: number) {
     switch (level) {
         case 1:
-            return '1: Ad-hoc'
+            return 'Ad-hoc'
         case 2:
-            return '2: Reactive'
+            return 'Reactive'
         case 3:
-            return '3: Scheduled'
+            return 'Scheduled'
         case 4:
-            return '4: Proactive'
+            return 'Proactive'
         case 5:
-            return '5: Low-impact'
+            return 'Low-impact'
         default:
             return `${level}': Unknown'`
     }
@@ -2906,9 +2918,751 @@ const capabilityData: Capability[] = [
         }
     ]
 
+    const SAMMLevel1Data: Mapping[] = [
+        {
+            "id": "D-SA-A-1-1",
+            "description": "Design : Security Architecture : Architecture Design\n\nDo teams use security principles during design?\n\nYou have an agreed upon checklist of security principles\n You store your checklist in an accessible location\n Relevant stakeholders understand security principles",
+            "pscfIds": "PSCF-SPI-FRA",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "D-SA-B-1-1",
+            "description": "Design : Security Architecture : Technology Management\n\nDo you evaluate the security quality of important technologies used for development?\n\nYou have a list of the most important technologies used in, or in support of, each application\n You identify and track technological risks\n You ensure the risks to these technologies are in line with the organizational baseline",
+            "pscfIds": "PSCF-RM-TPC",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "D-SR-A-1-1",
+            "description": "Design : Security Requirements : Software Requirements\n\nDo project teams specify security requirements during development?\n\nTeams derive security requirements from functional requirements and customer or organization concerns\n Security requirements are specific, measurable, and reasonable\n Security requirements are in line with the organizational baseline",
+            "pscfIds": "PSCF-SPI-FRA",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "D-SR-B-1-1",
+            "description": "Design : Security Requirements : Supplier Security\n\nDo stakeholders review vendor collaborations for security requirements and methodology?\n\nYou consider including specific security requirements, activities, and processes when creating third-party agreements\n A vendor questionnaire is available and used to assess the strengths and weaknesses of your suppliers",
+            "pscfIds": "PSCF-RM-TPD",
+            "understanding": 1,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "D-TA-A-1-1",
+            "description": "Design : Threat Assessment : Application Risk Profile\n\nDo you classify applications according to business risk based on a simple and predefined set of questions?\n\nAn agreed-upon risk classification exists\n The application team understands the risk classification\n The risk classification covers critical aspects of business risks the organization is facing\n The organization has an inventory for the applications in scope",
+            "pscfIds": "PSCF-RM-BIA",
+            "understanding": 2,
+            "information": 2,
+            "opportunity": 4
+        },
+        {
+            "id": "D-TA-B-1-1",
+            "description": "Design : Threat Assessment : Threat Modeling\n\nDo you identify and manage architectural design flaws with threat modeling?\n\nYou perform threat modeling for high-risk applications\n You use simple threat checklists, such as STRIDE\n You persist the outcome of a threat model for later use",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 1
+        },
+        {
+            "id": "G-EG-A-1-1",
+            "description": "Governance : Education & Guidance : Training and Awareness\n\nDo you require employees involved with application development to take SDLC training?\n\nTraining is repeatable, consistent, and available to anyone involved with software development lifecycle\n Training includes the latest OWASP Top 10 if appropriate and includes concepts such as Least Privilege, Defense-in-Depth, Fail Secure (Safe), Complete Mediation, Session Management, Open Design, and Psychological Acceptability\n Training requires a sign-off or an acknowledgement from attendees\n You have updated the training in the last 12 months\n Training is required during employees' onboarding process",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 3
+        },
+        {
+            "id": "G-EG-B-1-1",
+            "description": "Governance : Education & Guidance : Organization and Culture\n\nHave you identified a Security Champion for each development team?\n\nSecurity Champions receive appropriate training\n Application Security and Development teams receive periodic briefings from Security Champions on the overall status of security initiatives and fixes\n The Security Champion reviews the results of external testing before adding to the application backlog",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "G-PC-A-1-1",
+            "description": "Governance : Policy & Compliance : Policy & Standards\n\nDo you have and apply a common set of policies and standards throughout your organization?\n\nYou have adapted existing standards appropriate for the organization’s industry to account for domain-specific considerations\n Your standards are aligned with your policies and incorporate technology-specific implementation guidance",
+            "pscfIds": "PSCF-RM-CO",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "G-PC-B-1-1",
+            "description": "Governance : Policy & Compliance : Compliance Management\n\nDo you have a complete picture of your external compliance obligations?\n\nYou have identified all sources of external compliance obligations\n You have captured and reconciled compliance obligations from all sources",
+            "pscfIds": "PSCF-RM-CO",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "G-SM-A-1-1",
+            "description": "Governance : Strategy & Metrics : Create and Promote\n\nDo you understand the enterprise-wide risk appetite for your applications ?\n\nYou capture the risk appetite of your organization's executive leadership\n The organization's leadership vet and approve the set of risks\n You identify the main business and technical threats to your assets and data\n You document risks and store them in an accessible location",
+            "pscfIds": "PSCF-RM-TI",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 1
+        },
+        {
+            "id": "G-SM-B-1-1",
+            "description": "Governance : Strategy & Metrics : Measure and Improve\n\nDo you use a set of metrics to measure the effectiveness and efficiency of the application security program across applications?\n\nYou document each metric, including a description of the sources, measurement coverage, and guidance on how to use it to explain application security trends\n Metrics include measures of efforts, results, and the environment measurement categories\n Most of the metrics are frequently measured, easy or inexpensive to gather, and expressed as a cardinal number or a percentage\n Application security and development teams publish metrics",
+            "pscfIds": "PSCF-SPM-DM\nPSCF-SPM-QM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 1
+        },
+        {
+            "id": "I-DM-A-1-1",
+            "description": "Implementation : Defect Management : Defect Tracking\n\nDo you track all known security defects in accessible locations?\n\nYou can easily get an overview of all security defects impacting one application\n You have at least a rudimentary classification scheme in place\n The process includes a strategy for handling false positives and duplicate entries\n The defect management system covers defects from various sources and activities",
+            "pscfIds": "PSCF-QC-SDM",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "I-DM-B-1-1",
+            "description": "Implementation : Defect Management : Metrics and Feedback\n\nDo you use basic metrics about recorded security defects to carry out quick win improvement activities?\n\nYou analyzed your recorded metrics at least once in the last year\n At least basic information about this initiative is recorded and available\n You have identified and carried out at least one quick win activity based on the data",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 1,
+            "opportunity": 3
+        },
+        {
+            "id": "I-SB-A-1-1",
+            "description": "Implementation : Secure Build : Build Process\n\nIs your full build process formally described?\n\nYou have enough information to recreate the build processes\n Your build documentation up to date\n Your build documentation is stored in an accessible location\n Produced artifact checksums are created during build to support later verification\n You harden the tools that are used within the build process",
+            "pscfIds": "PSCF-SBD-BP\nPSCF-SBD-AI",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "I-SB-B-1-1",
+            "description": "Implementation : Secure Build : Software Dependencies\n\nDo you have solid knowledge about dependencies you're relying on?\n\nYou have a current bill of materials (BOM) for every application\n You can quickly find out which applications are affected by a particular CVE\n You have analyzed, addressed, and documented findings from dependencies at least once in the last three months",
+            "pscfIds": "PSCF-SBD-DM",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "I-SD-A-1-1",
+            "description": "Implementation : Secure Deployment : Deployment Process\n\nDo you use repeatable deployment processes?\n\nYou have enough information to run the deployment processes\n Your deployment documentation up to date\n Your deployment documentation is accessible to relevant stakeholders\n You ensure that only defined qualified personnel can trigger a deployment\n You harden the tools that are used within the deployment process",
+            "pscfIds": "PSCF-SBD-DP",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 1
+        },
+        {
+            "id": "I-SD-B-1-1",
+            "description": "Implementation : Secure Deployment : Secret Management\n\nDo you limit access to application secrets according to the least privilege principle?\n\nYou store production secrets protected in a secured location\n Developers do not have access to production secrets\n Production secrets are not available in non-production environments",
+            "pscfIds": "PSCF-SBD-SM",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 1
+        },
+        {
+            "id": "O-EM-A-1-1",
+            "description": "Operations : Environment Management : Configuration Hardening\n\nDo you harden configurations for key components of your technology stacks?\n\nYou have identified the key components in each technology stack used\n You have an established configuration standard for each key component",
+            "pscfIds": "PSCF-OV-EM",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "O-EM-B-1-1",
+            "description": "Operations : Environment Management : Patching and Updating\n\nDo you identify and patch vulnerable components?\n\nYou have an up-to-date list of components, including version information\n You regularly review public sources for vulnerabilities related to your components",
+            "pscfIds": "PSCF-SPI-CM",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 3
+        },
+        {
+            "id": "O-IM-A-1-1",
+            "description": "Operations : Incident Management : Incident Detection\n\nDo you analyze log data for security incidents periodically?\n\nYou have a contact point for the creation of security incidents\n You analyze data in accordance with the log data retention periods\n The frequency of this analysis is aligned with the criticality of your applications",
+            "pscfIds": "PSCF-OV-ID",
+            "understanding": 3,
+            "information": 1,
+            "opportunity": 1
+        },
+        {
+            "id": "O-IM-B-1-1",
+            "description": "Operations : Incident Management : Incident Response\n\nDo you respond to detected incidents?\n\nYou have a defined person or role for incident handling\n You document security incidents",
+            "pscfIds": "PSCF-OV-IR",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "O-OM-A-1-1",
+            "description": "Operations : Operational Management : Data Protection\n\nDo you protect and handle information according to protection requirements for data stored and processed on each application?\n\nYou know the data elements processed and stored by each application\n You know the type and sensitivity level of each identified data element\n You have controls to prevent propagation of unsanitized sensitive data from production to lower environments",
+            "pscfIds": "PSCF-RM-DPO\nPSCF-SPI-DC",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "O-OM-B-1-1",
+            "description": "Operations : Operational Management : System Decomissioning / Legacy Management\n\nDo you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?\n\nYou do not use unsupported applications or dependencies\n You manage customer/user migration from older versions for each product and customer/user group",
+            "pscfIds": "PSCF-SPM-POM",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "V-AA-A-1-1",
+            "description": "Verification : Architecture Assessment : Architecture Validation\n\nDo you review the application architecture for key security objectives on an ad-hoc basis?\n\nYou have an agreed upon model of the overall software architecture\n You include components, interfaces, and integrations in the architecture model\n You verify the correct provision of general security mechanisms\n You log missing security controls as defects",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 1
+        },
+        {
+            "id": "V-AA-B-1-1",
+            "description": "Verification : Architecture Assessment : Architecture Mitigation\n\nDo you review the application architecture for mitigations of typical threats on an ad-hoc basis?\n\nYou have an agreed upon model of the overall software architecture\n Security savvy staff conduct the review\n You consider different types of threats, including insider and data-related ones",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 1
+        },
+        {
+            "id": "V-RT-A-1-1",
+            "description": "Verification : Requirements-driven Testing : Control Verification\n\nDo you test applications for the correct functioning of standard security controls?\n\nSecurity testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls\n Security testing executes whenever the application changes its use of the controls",
+            "pscfIds": "PSCF-QC-CST",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "V-RT-B-1-1",
+            "description": "Verification : Requirements-driven Testing : Misuse/Abuse Testing\n\nDo you test applications using randomization or fuzzing techniques?\n\nTesting covers most or all of the application's main input parameters\n You record and inspect all application crashes for security impact on a best-effort basis",
+            "pscfIds": "PSCF-QC-EST",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 1
+        },
+        {
+            "id": "V-ST-A-1-1",
+            "description": "Verification : Security Testing : Scalable Baseline\n\nDo you scan applications with automated security testing tools?\n\nYou dynamically generate inputs for security tests using automated tools\n You choose the security testing tools to fit the organization's architecture and technology stack, and balance depth and accuracy of inspection with usability of findings to the organization",
+            "pscfIds": "PSCF-QC-CST",
+            "understanding": 4,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "V-ST-B-1-1",
+            "description": "Verification : Security Testing : Deep Understanding\n\nDo you manually review the security quality of selected high-risk components?\n\nCriteria exist to help the reviewer focus on high-risk components\n Qualified personnel conduct reviews following documented guidelines\n You address findings in accordance with the organization's defect management policy",
+            "pscfIds": "PSCF-QC-EST",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 1
+        }
+    ]
+
+    const SAMMLevel2Data: Mapping[] = [
+        {
+            "id": "D-SA-A-2-1",
+            "description": "Design : Security Architecture : Architecture Design\n\nDo you use shared security services during design?\n\nYou have a documented list of reusable security services, available to relevant stakeholders\n You have reviewed the baseline security posture for each selected service\n Your designers are trained to integrate each selected service following available guidance",
+            "pscfIds": "PSCF-SPM-RSS",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "D-SA-B-2-1",
+            "description": "Design : Security Architecture : Technology Management\n\nDo you have a list of recommended technologies for the organization?\n\nThe list is based on technologies used in the software portfolio\n Lead architects and developers review and approve the list\n You share the list across the organization\n You review and update the list at least yearly",
+            "pscfIds": "PSCF-RM-TPC",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "D-SR-A-2-1",
+            "description": "Design : Security Requirements : Software Requirements\n\nDo you define, structure, and include prioritization in the artifacts of the security requirements gathering process?\n\nSecurity requirements take into consideration domain specific knowledge when applying policies and guidance to product development\n Domain experts are involved in the requirements definition process\n You have an agreed upon structured notation for security requirements\n Development teams have a security champion dedicated to reviewing security requirements and outcomes",
+            "pscfIds": "PSCF-SPI-FRA",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 4
+        },
+        {
+            "id": "D-SR-B-2-1",
+            "description": "Design : Security Requirements : Supplier Security\n\nDo vendors meet the security responsibilities and quality measures of service level agreements defined by the organization?\n\nYou discuss security requirements with the vendor when creating vendor agreements\n Vendor agreements provide specific guidance on security defect remediation within an agreed upon timeframe\n The organization has a templated agreement of responsibilities and service levels for key vendor security processes\n You measure key performance indicators",
+            "pscfIds": "PSCF-RM-TPD",
+            "understanding": 2,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "D-TA-A-2-1",
+            "description": "Design : Threat Assessment : Application Risk Profile\n\nDo you use centralized and quantified application risk profiles to evaluate business risk?\n\nThe application risk profile is in line with the organizational risk standard\n The application risk profile covers impact to security and privacy\n You validate the quality of the risk profile manually and/or automatically\n The application risk profiles are stored in a central inventory",
+            "pscfIds": "PSCF-RM-BIA",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "D-TA-B-2-1",
+            "description": "Design : Threat Assessment : Threat Modeling\n\nDo you use a standard methodology, aligned on your application risk levels?\n\nYou train your architects, security champions, and other stakeholders on how to do practical threat modeling\n Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts\n Changes in the application or business context trigger a review of the relevant threat models\n You capture the threat modeling artifacts with tools that are used by your application teams",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 4
+        },
+        {
+            "id": "G-EG-A-2-1",
+            "description": "Governance : Education & Guidance : Training and Awareness\n\nIs training customized for individual roles such as developers, testers, or security champions?\n\nTraining includes all topics from maturity level 1, and adds more specific tools, techniques, and demonstrations\n Training is mandatory for all employees and contractors\n Training includes input from in-house SMEs and trainees\n Training includes demonstrations of tools and techniques developed in-house\n You use feedback to enhance and make future training more relevant",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 4,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "G-EG-B-2-1",
+            "description": "Governance : Education & Guidance : Organization and Culture\n\nDoes the organization have a Secure Software Center of Excellence (SSCE)?\n\nThe SSCE has a charter defining its role in the organization\n Development teams review all significant architectural changes with the SSCE\n The SSCE publishes SDLC standards and guidelines related to Application Security\n Product Champions are responsible for promoting the use of specific security tools",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 2
+        },
+        {
+            "id": "G-PC-A-2-1",
+            "description": "Governance : Policy & Compliance : Policy & Standards\n\nDo you publish the organization's policies as test scripts or run-books for easy interpretation by development teams?\n\nYou create verification checklists and test scripts where applicable, aligned with the policy's requirements and the implementation guidance in the associated standards\n You create versions adapted to each development methodology and technology the organization uses",
+            "pscfIds": "PSCF-RM-CO",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 2
+        },
+        {
+            "id": "G-PC-B-2-1",
+            "description": "Governance : Policy & Compliance : Compliance Management\n\nDo you have a standard set of security requirements and verification procedures addressing the organization's external compliance obligations?\n\nYou map each external compliance obligation to a well-defined set of application requirements\n You define verification procedures, including automated tests, to verify compliance with compliance-related requirements",
+            "pscfIds": "PSCF-RM-CO",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "G-SM-A-2-1",
+            "description": "Governance : Strategy & Metrics : Create and Promote\n\nDo you have a strategic plan for application security and use it to make decisions?\n\nThe plan reflects the organization's business priorities and risk appetite\n The plan includes measurable milestones and a budget\n The plan is consistent with the organization's business drivers and risks\n The plan lays out a roadmap for strategic and tactical initiatives\n You have buy-in from stakeholders, including development teams",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "G-SM-B-2-1",
+            "description": "Governance : Strategy & Metrics : Measure and Improve\n\nDid you define Key Perfomance Indicators (KPI) from available application security metrics?\n\nYou defined KPIs after gathering enough information to establish realistic objectives\n You developed KPIs with the buy-in from the leadership and teams responsible for application security\n KPIs are available to the application teams and include acceptability thresholds and guidance in case teams need to take action\n Success of the application security program is clearly visible based on defined KPIs",
+            "pscfIds": "PSCF-SPM-DM\nPSCF-SPM-QM",
+            "understanding": 4,
+            "information": 5,
+            "opportunity": 2
+        },
+        {
+            "id": "I-DM-A-2-1",
+            "description": "Implementation : Defect Management : Defect Tracking\n\nDo you keep an overview of the state of security defects across the organization?\n\nA single severity scheme is applied to all defects across the organization\n The scheme includes SLAs for fixing particular severity classes\n You regularly report compliance to SLAs",
+            "pscfIds": "PSCF-QC-SDM",
+            "understanding": 4,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "I-DM-B-2-1",
+            "description": "Implementation : Defect Management : Metrics and Feedback\n\nDo you improve your security assurance program upon standardized metrics?\n\nYou document metrics for defect classification and categorization and keep them up to date\n Executive management regularly receives information about defects and has acted upon it in the last year\n You regularly share technical details about security defects among teams",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 3
+        },
+        {
+            "id": "I-SB-A-2-1",
+            "description": "Implementation : Secure Build : Build Process\n\nIs the build process fully automated?\n\nThe build process itself doesn't require any human interaction\n Your build tools are hardened as per best practice and vendor guidance\n You encrypt the secrets required by the build tools and control access based on the principle of least privilege",
+            "pscfIds": "PSCF-SBD-BP\nPSCF-SBD-SM",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "I-SB-B-2-1",
+            "description": "Implementation : Secure Build : Software Dependencies\n\nDo you handle 3rd party dependency risk by a formal process?\n\nYou keep a list of approved dependencies that meet predefined criteria\n You automatically evaluate dependencies for new CVEs and alert responsible staff\n You automatically detect and alert to license changes with possible impact on legal application usage\n You track and alert to usage of unmaintained dependencies\n You reliably detect and remove unnecessary dependencies from the software",
+            "pscfIds": "PSCF-SBD-DM",
+            "understanding": 3,
+            "information": 5,
+            "opportunity": 4
+        },
+        {
+            "id": "I-SD-A-2-1",
+            "description": "Implementation : Secure Deployment : Deployment Process\n\nAre deployment processes automated and employing security checks?\n\nDeployment processes are automated on all stages\n Deployment includes automated security testing procedures\n You alert responsible staff to identified vulnerabilities\n You have logs available for your past deployments for a defined period of time",
+            "pscfIds": "PSCF-SBD-DP",
+            "understanding": 3,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "I-SD-B-2-1",
+            "description": "Implementation : Secure Deployment : Secret Management\n\nDo you inject production secrets into configuration files during deployment?\n\nSource code files no longer contain active application secrets\n Under normal circumstances, no humans access secrets during deployment procedures\n You log and alert when abnormal secrets access is attempted",
+            "pscfIds": "PSCF-SBD-SM",
+            "understanding": 3,
+            "information": 5,
+            "opportunity": 3
+        },
+        {
+            "id": "O-EM-A-2-1",
+            "description": "Operations : Environment Management : Configuration Hardening\n\nDo you have hardening baselines for your components?\n\nYou have assigned an owner for each baseline\n The owner keeps their assigned baselines up to date\n You store baselines in an accessible location\n You train employees responsible for configurations in these baselines",
+            "pscfIds": "PSCF-OV-EM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "O-EM-B-2-1",
+            "description": "Operations : Environment Management : Patching and Updating\n\nDo you follow an established process for updating components of your technology stacks?\n\nThe process includes vendor information for third-party patches\n The process considers external sources to gather information about zero day attacks, and includes appropriate risk mitigation steps\n The process includes guidance for prioritizing component updates",
+            "pscfIds": "PSCF-SPI-CM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "O-IM-A-2-1",
+            "description": "Operations : Incident Management : Incident Detection\n\nDo you follow a documented process for incident detection?\n\nThe process has a dedicated owner\n You store process documentation in an accessible location\n The process considers an escalation path for further analysis\n You train employees responsible for incident detection in this process\n You have a checklist of potential attacks to simplify incident detection",
+            "pscfIds": "PSCF-OV-ID",
+            "understanding": 3,
+            "information": 2,
+            "opportunity": 3
+        },
+        {
+            "id": "O-IM-B-2-1",
+            "description": "Operations : Incident Management : Incident Response\n\nDo you use a repeatable process for incident handling?\n\nYou have an agreed upon incident classification\n The process considers Root Case Analysis for high severity incidents\n Employees responsible for incident response are trained in this process\n Forensic analysis tooling is available",
+            "pscfIds": "PSCF-OV-IR",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "O-OM-A-2-1",
+            "description": "Operations : Operational Management : Data Protection\n\nDo you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?\n\nThe data catalog is stored in an accessible location\n You know which data elements are subject to specific regulation\n You have controls for protecting and preserving data throughout its lifetime\n You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends",
+            "pscfIds": "PSCF-RM-DPO\nPSCF-SPI-DC",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "O-OM-B-2-1",
+            "description": "Operations : Operational Management : System Decomissioning / Legacy Management\n\nDo you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?\n\nYou document the status of support for all released versions of your products, in an accessible location\n The process includes replacement or upgrade of third-party applications, or application dependencies, that have reached end of life\n Operating environments do not contain orphaned accounts, firewall rules, or other configuration artifacts",
+            "pscfIds": "PSCF-SPM-POM",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "V-AA-A-2-1",
+            "description": "Verification : Architecture Assessment : Architecture Validation\n\nDo you regularly review the security mechanisms of your architecture?\n\nYou review compliance with internal and external requirements\n You systematically review each interface in the system\n You use a formalized review method and structured validation\n You log missing security mechanisms as defects",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "V-AA-B-2-1",
+            "description": "Verification : Architecture Assessment : Architecture Mitigation\n\nDo you regularly evaluate the threats to your architecture?\n\nYou systematically review each threat identified in the Threat Assessment\n Trained or experienced people lead review exercise\n You identify mitigating design-level features for each identified threat\n You log unhandled threats as defects",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 4,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "V-RT-A-2-1",
+            "description": "Verification : Requirements-driven Testing : Control Verification\n\nDo you consistently write and execute test scripts to verify the functionality of security requirements?\n\nYou tailor tests to each application and assert expected security functionality\n You capture test results as a pass or fail condition\n Tests use a standardized framework or DSL",
+            "pscfIds": "PSCF-QC-CST",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "V-RT-B-2-1",
+            "description": "Verification : Requirements-driven Testing : Misuse/Abuse Testing\n\nDo you create abuse cases from functional requirements and use them to drive security tests?\n\nImportant business functionality has corresponding abuse cases\n You build abuse stories around relevant personas with well-defined motivations and characteristics\n You capture identified weaknesses as security requirements",
+            "pscfIds": "PSCF-QC-EST",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "V-ST-A-2-1",
+            "description": "Verification : Security Testing : Scalable Baseline\n\nDo you customize the automated security tools to your applications and technology stacks?\n\nYou tune and select tool features which match your application or technology stack\n You minimize false positives by silencing or automatically filter irrelevant warnings or low probability findings\n You minimize false negatives by leverage tool extensions or DSLs to customize tools for your application or organizational standards",
+            "pscfIds": "PSCF-QC-CST",
+            "understanding": 5,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "V-ST-B-2-1",
+            "description": "Verification : Security Testing : Deep Understanding\n\nDo you perform penetration testing for your applications at regular intervals?\n\nPenetration testing uses application-specific security test cases to evaluate security\n Penetration testing looks for both technical and logical issues in the application\n Stakeholders review the test results and handle them in accordance with the organization's risk management\n Qualified personnnel performs penetration testing",
+            "pscfIds": "PSCF-QC-EST",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 3
+        }
+    ]
+
+
+    const SAMMLevel3Data: Mapping[] = [
+        {
+            "id": "D-SA-A-3-1",
+            "description": "Design : Security Architecture : Architecture Design\n\nDo you base your design on available reference architectures?\n\nYou have one or more approved reference architectures documented and available to stakeholders\n You improve the reference architectures continuously based on insights and best practices\n You provide a set of components, libraries, and tools to implement each reference architecture",
+            "pscfIds": "PSCF-SPM-RC",
+            "understanding": 5,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "D-SA-B-3-1",
+            "description": "Design : Security Architecture : Technology Management\n\nDo you enforce the use of recommended technologies within the organization?\n\nYou monitor applications regularly for the correct use of the recommended technologies\n You solve violations against the list accoranding to organizational policies\n You take action if the number of violations falls outside the yearly objectives",
+            "pscfIds": "PSCF-RM-TPC",
+            "understanding": 4,
+            "information": 5,
+            "opportunity": 4
+        },
+        {
+            "id": "D-SR-A-3-1",
+            "description": "Design : Security Requirements : Software Requirements\n\nDo you use a standard requirements framework to streamline the elicitation of security requirements?\n\nA security requirements framework is available for project teams\n The framework is categorized by common requirements and standards-based requirements\n The framework gives clear guidance on the quality of requirements and how to describe them\n The framework is adaptable to specific business requirements",
+            "pscfIds": "PSCF-SPM-MAR",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "D-SR-B-3-1",
+            "description": "Design : Security Requirements : Supplier Security\n\nAre vendors aligned with standard security controls and software development tools and processes that the organization utilizes?\n\nThe vendor has a secure SDLC that includes secure build, secure deployment, defect management, and incident management that align with those used in your organization\n You verify the solution meets quality and security objectives before every major release\n When standard verification processes are not available, you use compensating controls such as software composition analysis and independent penetration testing",
+            "pscfIds": "PSCF-RM-TPD",
+            "understanding": 4,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "D-TA-A-3-1",
+            "description": "Design : Threat Assessment : Application Risk Profile\n\nDo you regularly review and update the risk profiles for your applications?\n\nThe organizational risk standard considers historical feedback to improve the evaluation method\n Significant changes in the application or business context trigger a review of the relevant risk profiles",
+            "pscfIds": "PSCF-RM-BIA",
+            "understanding": 5,
+            "information": 5,
+            "opportunity": 4
+        },
+        {
+            "id": "D-TA-B-3-1",
+            "description": "Design : Threat Assessment : Threat Modeling\n\nDo you regularly review and update the threat modeling methodology for your applications?\n\nThe threat model methodology considers historical feedback for improvement\n You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications\n You automate parts of your threat modeling process with threat modeling tools",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 5,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "G-EG-A-3-1",
+            "description": "Governance : Education & Guidance : Training and Awareness\n\nHave you implemented a Learning Management System or equivalent to track employee training and certification processes?\n\nA Learning Management System (LMS) is used to track trainings and certifications\n Training is based on internal standards, policies, and procedures\n You use certification programs or attendance records to determine access to development systems and resources",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "G-EG-B-3-1",
+            "description": "Governance : Education & Guidance : Organization and Culture\n\nIs there a centralized portal where developers and application security professionals from different teams and business units are able to communicate and share information?\n\nThe organization promotes use of a single portal across different teams and business units\n The portal is used for timely information such as notification of security incidents, tool updates, architectural standard changes, and other related announcements\n The portal is widely recognized by developers and architects as a centralized repository of the organization-specific application security information\n All content is considered persistent and searchable\n The portal provides access to application-specific security metrics",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 3,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "G-PC-A-3-1",
+            "description": "Governance : Policy & Compliance : Policy & Standards\n\nDo you regularly report on policy and standard compliance, and use that information to guide compliance improvement efforts?\n\nYou have procedures (automated, if possible) to regularly generate compliance reports\n You deliver compliance reports to all relevant stakeholders\n Stakeholders use the reported compliance status information to identify areas for improvement",
+            "pscfIds": "PSCF-RM-CO",
+            "understanding": 5,
+            "information": 5,
+            "opportunity": 4
+        },
+        {
+            "id": "G-PC-B-3-1",
+            "description": "Governance : Policy & Compliance : Compliance Management\n\nDo you regularly report on adherence to external compliance obligations and use that information to guide efforts to close compliance gaps?\n\nYou have established, well-defined compliance metrics\n You measure and report on applications' compliance metrics regularly\n Stakeholders use the reported compliance status information to identify compliance gaps and prioritize gap remediation efforts",
+            "pscfIds": "PSCF-RM-CO",
+            "understanding": 5,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "G-SM-A-3-1",
+            "description": "Governance : Strategy & Metrics : Create and Promote\n\nDo you regularly review and update the Strategic Plan for Application Security?\n\nYou review and update the plan in response to significant changes in the business environment, the organization, or its risk appetite\n Plan update steps include reviewing the plan with all the stakeholders and updating the business drivers and strategies\n You adjust the plan and roadmap based on lessons learned from completed roadmap activities\n You publish progress information on roadmap activities, making sure they are available to all stakeholders",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 5,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "G-SM-B-3-1",
+            "description": "Governance : Strategy & Metrics : Measure and Improve\n\nDo you update the Application Security strategy and roadmap based on application security metrics and KPIs?\n\nYou review KPIs at least yearly for their efficiency and effectiveness\n KPIs and application security metrics trigger most of the changes to the application security strategy",
+            "pscfIds": "PSCF-SPM-DM\nPSCF-SPM-QM",
+            "understanding": 5,
+            "information": 5,
+            "opportunity": 3
+        },
+        {
+            "id": "I-DM-A-3-1",
+            "description": "Implementation : Defect Management : Defect Tracking\n\nDo you enforce SLAs for fixing security defects?\n\nYou automatically alert of SLA breaches and transfer respective defects to the risk management process\n You integrate relevant tooling (e.g. monitoring, build, deployment) with the defect management system",
+            "pscfIds": "PSCF-QC-SDM",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "I-DM-B-3-1",
+            "description": "Implementation : Defect Management : Metrics and Feedback\n\nDo you regularly evaluate the effectiveness of your security metrics so that its input helps drive your security strategy?\n\nYou have analyzed the effectiveness of the security metrics at least once in the last year\n Where possible, you verify the correctness of the data automatically\n The metrics is aggregated with other sources like threat intelligence or incident management\n You derived at least one strategic activity from the metrics in the last year",
+            "pscfIds": "PSCF-RM-CCI",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "I-SB-A-3-1",
+            "description": "Implementation : Secure Build : Build Process\n\nDo you enforce automated security checks in your build processes?\n\nBuilds fail if the application doesn't meet a predefined security baseline\n You have a maximum accepted severity for vulnerabilties\n You log warnings and failures in a centralized system\n You select and configure tools to evaluate each application against its security requirements at least once a year",
+            "pscfIds": "PSCF-SBD-BP\nPSCF-QC-CST",
+            "understanding": 4,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "I-SB-B-3-1",
+            "description": "Implementation : Secure Build : Software Dependencies\n\nDo you prevent build of software if it's affected by vulnerabilities in dependencies?\n\nYour build system is connected to a system for tracking 3rd party dependency risk, causing build to fail unless the vulnerability is evaluated to be a false positive or the risk is explicitly accepted\n You scan your dependencies using a static analysis tool\n You report findings back to dependency authors using an established responsible disclosure process\n Using a new dependency not evaluated for security risks causes the build to fail",
+            "pscfIds": "PSCF-SBD-DM",
+            "understanding": 3,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "I-SD-A-3-1",
+            "description": "Implementation : Secure Deployment : Deployment Process\n\nDo you consistently validate the integrity of deployed artifacts?\n\nYou prevent or roll back deployment if you detect an integrity breach\n The verification is done against signatures created during the build time\n If checking of signatures is not possible (e.g. externally build software), you introduce compensating measures",
+            "pscfIds": "PSCF-SBD-DP",
+            "understanding": 3,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "I-SD-B-3-1",
+            "description": "Implementation : Secure Deployment : Secret Management\n\nDo you practice proper lifecycle management for application secrets?\n\nYou generate and synchronize secrets using a vetted solution\n Secrets are different between different application instances\n Secrets are regularly updated",
+            "pscfIds": "PSCF-SBD-SM",
+            "understanding": 4,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "O-EM-A-3-1",
+            "description": "Operations : Environment Management : Configuration Hardening\n\nDo you monitor and enforce conformity with hardening baselines?\n\nYou perform conformity checks regularly, preferably using automation\n You store conformity check results in an accessible location\n You follow an established process to address reported non-conformities\n You review each baseline at least annually, and update it when required",
+            "pscfIds": "PSCF-OV-EM",
+            "understanding": 4,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "O-EM-B-3-1",
+            "description": "Operations : Environment Management : Patching and Updating\n\nDo you regularly evaluate components and review patch level status?\n\nYou update the list with components and versions\n You identify and update missing updates according to existing SLA\n You review and update the process based on feedback from the people who perform patching",
+            "pscfIds": "PSCF-SPI-CM",
+            "understanding": 5,
+            "information": 3,
+            "opportunity": 3
+        },
+        {
+            "id": "O-IM-A-3-1",
+            "description": "Operations : Incident Management : Incident Detection\n\nDo you review and update the incident detection process regularly?\n\nYou perform reviews at least annually\n You update the checklist of potential attacks with external and internal data",
+            "pscfIds": "PSCF-OV-ID",
+            "understanding": 5,
+            "information": 2,
+            "opportunity": 4
+        },
+        {
+            "id": "O-IM-B-3-1",
+            "description": "Operations : Incident Management : Incident Response\n\nDo you have a dedicated incident response team available?\n\nThe team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so\n You review and update the response process at least annually",
+            "pscfIds": "PSCF-OV-IR",
+            "understanding": 5,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "O-OM-A-3-1",
+            "description": "Operations : Operational Management : Data Protection\n\nDo you regularly review and update the data catalog and your data protection policies and procedures?\n\nYou have automated monitoring to detect attempted or actual violations of the Data Protection Policy\n You have tools for data loss prevention, access control and tracking, or anomalous behavior detection\n You periodically audit the operation of automated mechanisms, including backups and record deletions",
+            "pscfIds": "PSCF-RM-DPO\nPSCF-SPI-DC\nPSCF-SBD-DI",
+            "understanding": 5,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "O-OM-B-3-1",
+            "description": "Operations : Operational Management : System Decomissioning / Legacy Management\n\nDo you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?\n\nYour end of life management process is agreed upon\n You inform customers and user groups of product timelines to prevent disruption of service or support\n You review the process at least annually",
+            "pscfIds": "PSCF-SPM-POM",
+            "understanding": 5,
+            "information": 3,
+            "opportunity": 4
+        },
+        {
+            "id": "V-AA-A-3-1",
+            "description": "Verification : Architecture Assessment : Architecture Validation\n\nDo you regularly review the effectiveness of the security controls?\n\nYou evaluate the preventive, detective, and response capabilities of security controls\n You evaluate the strategy alignment, appropriate support, and scalability of security controls\n You evaluate the effectiveness at least yearly\n You log identified shortcomings as defects",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 5,
+            "information": 4,
+            "opportunity": 3
+        },
+        {
+            "id": "V-AA-B-3-1",
+            "description": "Verification : Architecture Assessment : Architecture Mitigation\n\nDo you regularly update your reference architectures based on architecture assessment findings?\n\nYou assess your architectures in a standardized, documented manner\n You use recurring findings to trigger a review of reference architectures\n You independently review the quality of the architecture assessments on an ad-hoc basis\n You use reference architecture updates to trigger reviews of relevant shared solutions, in a risk-based manner",
+            "pscfIds": "PSCF-SPI-ATM",
+            "understanding": 5,
+            "information": 4,
+            "opportunity": 4
+        },
+        {
+            "id": "V-RT-A-3-1",
+            "description": "Verification : Requirements-driven Testing : Control Verification\n\nDo you automatically test applications for security regressions?\n\nYou consistently write tests for all identified bugs (possibly exceeding a pre-defined severity threshhold)\n You collect security tests in a test suite that is part of the existing unit testing framework",
+            "pscfIds": "PSCF-QC-CST",
+            "understanding": 3,
+            "information": 4,
+            "opportunity": 5
+        },
+        {
+            "id": "V-RT-B-3-1",
+            "description": "Verification : Requirements-driven Testing : Misuse/Abuse Testing\n\nDo you perform denial of service and security stress testing?\n\nStress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)\n You design tests around relevant personas with well-defined capabilities (knowledge, resources)\n You feed the results back to the Design practices",
+            "pscfIds": "PSCF-QC-EST",
+            "understanding": 4,
+            "information": 3,
+            "opportunity": 2
+        },
+        {
+            "id": "V-ST-A-3-1",
+            "description": "Verification : Security Testing : Scalable Baseline\n\nDo you integrate automated security testing into the build and deploy process?\n\nManagement and business stakeholders track and review test results throughout the development cycle\n You merge test results into a central dashboard and feed them into defect management",
+            "pscfIds": "PSCF-QC-CST",
+            "understanding": 5,
+            "information": 5,
+            "opportunity": 5
+        },
+        {
+            "id": "V-ST-B-3-1",
+            "description": "Verification : Security Testing : Deep Understanding\n\nDo you use the results of security testing to improve the development lifecycle?\n\nYou use results from other security activities to improve integrated security testing during development\n You review test results and incorporate them into security awareness training and security testing playbooks\n Stakeholders review the test results and handle them in accordance with the organization's risk management",
+            "pscfIds": "PSCF-QC-EST",
+            "understanding": 5,
+            "information": 3,
+            "opportunity": 4
+        }
+    ]
+
+    interface Mappings {
+        [key: string]: Mapping[]
+    }
+
+    const mappingData:Mappings = {
+        "gdpr": gdprData,
+        "ssdf": nistSSDFData,
+        "samm1": SAMMLevel1Data,
+        "samm2": SAMMLevel2Data,
+        "samm3": SAMMLevel3Data
+    }
+
     const tableData = capabilityData.map(capability => ({
         ...capability,
-        mappings: gdprData.filter(mapping => mapping.pscfIds.includes(capability.id)),
+        mappings: mappingData["gdpr"].filter(mapping => mapping.pscfIds.includes(capability.id)),
     })
     )
 
@@ -2921,7 +3675,7 @@ const capabilityData: Capability[] = [
           }),
         columnHelper.accessor(row => row, {
             id: 'name',
-            cell: info => <div><span className='whitespace-nowrap font-medium'>{info.getValue().id}</span><br /><span className=' font-medium text-gray-900'>{info.getValue().name}</span></div>,
+            cell: info => <div><span className='whitespace-nowrap font-medium'>{info.getValue().id}</span><br /><span className=' font-medium text-gray-900 dark:text-white'>{info.getValue().name}</span></div>,
             header: () => <span>Capability</span>,
           }),
         
@@ -2939,33 +3693,45 @@ const capabilityData: Capability[] = [
        
         columnHelper.accessor('mappings', {
             id: 'mapped_ids',
-            header: () => <span className="">Mapped IDs</span>,
+            header: () => <span className="">Regulatory or Standard Requirement</span>,
             cell: info => info.getValue().length > 0 ? info.getValue().map(mapping => (
-                    <div key={mapping.id} className="mb-4">{mapping.id}: {mapping.description}</div>
+                    <div key={mapping.id} className="mb-4">{mapping.id}: <div className='whitespace-pre-line'>{mapping.description}</div></div>
                 )) : '—',
         }),
 
         columnHelper.accessor('mappings', {
             id: 'understanding',
             header: () => <span className="">Understanding</span>,
-            cell: info => <span className="whitespace-nowrap font-medium text-gray-900">{info.getValue().length > 0 ? understandingText( Math.max(...info.getValue().map(mapping => mapping.understanding)) ) : '—'}</span>
+            cell: info => <div className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-center">
+                    {stars( Math.max(...info.getValue().map(mapping => mapping.understanding)) )}
+                    {info.getValue().length > 0 ? understandingText( Math.max(...info.getValue().map(mapping => mapping.understanding)) ) : '—'}
+                </div>
         }),
 
         columnHelper.accessor('mappings', {
             id: 'information',
             header: () => <span className="">Information</span>,
-            cell: info => <span className="whitespace-nowrap font-medium text-gray-900">{info.getValue().length > 0 ? informationText( Math.max(...info.getValue().map(mapping => mapping.information)) ) : '—'}</span>
+            cell: info => <div className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-center">
+                    {stars( Math.max(...info.getValue().map(mapping => mapping.information)) )}
+                    {info.getValue().length > 0 ? informationText( Math.max(...info.getValue().map(mapping => mapping.information)) ) : '—'}
+                </div>
         }),
 
         columnHelper.accessor('mappings', {
             id: 'opportunity',
             header: () => <span className="">Opportunity</span>,
-            cell: info => <span className="whitespace-nowrap font-medium text-gray-900">{info.getValue().length > 0 ? opportunityText( Math.max(...info.getValue().map(mapping => mapping.opportunity)) ) : '—'}</span>
+            cell: info => <div className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-center">
+                    {stars( Math.max(...info.getValue().map(mapping => mapping.opportunity)) )}
+                    {info.getValue().length > 0 ? opportunityText( Math.max(...info.getValue().map(mapping => mapping.opportunity)) ) : '—'}
+                </div>
         }),
       ]
 
 export default function Page() {
-    const [data, setData] = React.useState(() => [...tableData])
+    const [selectedMapping, setSelectedMapping] = React.useState('gdpr');
+
+
+    const [data, setTableData] = React.useState(() => [...tableData])
     const rerender = React.useReducer(() => ({}), {})[1]
 
     const table = useReactTable({
@@ -2978,24 +3744,37 @@ export default function Page() {
         <div className="px-4 sm:px-6 lg:px-8 pt-8">
             <div className="sm:flex sm:items-center">
                 <div className="sm:flex-auto">
-                <h1 className="text-lg font-semibold leading-6 text-gray-900">Capability Mappings</h1>
-                <p className="mt-2 text-sm text-gray-700">
+                <h1 className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">Capability Mappings</h1>
+                <label className="mt-2 text-sm text-gray-700 dark:text-gray-300">
                     Here you can choose a regulatory framework or security standard and see how it maps to the PSCF.
-                </p>
+                    <br /><br />
+                    <select
+                        value={selectedMapping}
+                        onChange={e => {
+                            setSelectedMapping(e.target.value)
+
+                            setTableData(capabilityData.map(capability => ({
+                                ...capability,
+                                mappings: mappingData[e.target.value].filter(mapping => mapping.pscfIds.includes(capability.id)),
+                            })))
+                        }}
+                        >
+                        <option value="gdpr">EU General Data Protection Regulation (GDPR)</option>
+                        <option value="ssdf">NIST SSDF 1.1</option>
+                        <option value="samm1">OWASP SAMM Level 1</option>
+                        <option value="samm2">OWASP SAMM Level 2</option>
+                        <option value="samm3">OWASP SAMM Level 3</option>
+                    </select>
+                </label>
                 </div>
                 <div className="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
-                <button
-                    type="button"
-                    className="block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                    Add user
-                </button>
+
                 </div>
             </div>
             <div className="mt-8 flow-root">
                 <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-            <table className="min-w-full divide-y divide-gray-300">
+            <table className="min-w-full divide-y divide-gray-300 dark:divide-gray-700">
                 <thead>
                 {table.getHeaderGroups().map(headerGroup => (
                     <tr key={headerGroup.id}>
@@ -3003,7 +3782,7 @@ export default function Page() {
                         <th key={header.id} scope="col" className={classNames(
                             header.column.columnDef.id === 'definition' ? 'hidden xl:table-cell' : '',
                             header.column.columnDef.id === 'area' ? 'hidden lg:table-cell' : '',
-                            'px-3 py-3.5 text-left text-sm font-semibold text-gray-900'
+                            'px-3 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white'
                         )}>
                         {header.isPlaceholder
                             ? null
@@ -3016,14 +3795,14 @@ export default function Page() {
                     </tr>
                 ))}
                 </thead>
-                <tbody className="divide-y divide-gray-200">
+                <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
                 {table.getRowModel().rows.map(row => (
                     <tr key={row.id}>
                     {row.getVisibleCells().map(cell => (
                         <td key={cell.id} className={classNames(
                             cell.column.columnDef.id === 'definition' ? 'hidden xl:table-cell' : '',
                             cell.column.columnDef.id === 'area' ? 'hidden lg:table-cell' : '',
-                            'px-3 py-4 text-sm text-gray-500 align-top'
+                            'px-3 py-4 text-sm text-gray-500 dark:text-gray-300 align-top'
                         )}>
                         {flexRender(cell.column.columnDef.cell, cell.getContext())}
                         </td>
