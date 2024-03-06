@@ -3678,7 +3678,7 @@ export default function Page() {
 
     return (
         <div className="px-4 sm:px-6 lg:px-8 pt-8">
-            <div className="sticky top-0 sm:flex sm:items-center">
+            <div className="sticky top-16 bg-white sm:flex sm:items-center py-4 dark:bg-slate-900/95 dark:backdrop-blur dark:[@supports(backdrop-filter:blur(0))]:bg-slate-900/75">
                 <div className="sm:flex-auto">
                 <h1 className="text-lg font-semibold leading-6 text-gray-900 dark:text-white">Capability Mappings</h1>
                 <label className="mt-2 text-sm text-gray-700 dark:text-gray-300">
