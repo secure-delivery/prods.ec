@@ -11,6 +11,7 @@ import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import { Banner } from '@/components/Banner'
 
 function GitHubIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -35,6 +36,8 @@ function Header() {
   }, [])
 
   return (
+
+    
     <header
       className={clsx(
         'sticky top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 sm:px-6 lg:px-8 dark:shadow-none',
@@ -72,6 +75,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="flex w-full flex-col">
+      <Banner />
       <Header />
 
       {isHomePage && <Hero />}
