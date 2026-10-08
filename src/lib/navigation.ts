@@ -16,13 +16,13 @@ export const navigation = [
       { title: 'Capabilities drive secure product', href: '/pscf/concepts/capabilities-drive-secure-products' },
       { title: 'Security is an aspect of software product quality', href: '/pscf/concepts/security-quality' },
       { title: 'Understanding, Information & Opportunity', href: '/pscf/concepts/understanding-information-opportunity' },
-      { title: 'Accountability & Reponsibility', href: '/pscf/concepts/accountability-and-responsibility' },
+      { title: 'Accountability & Responsibility', href: '/pscf/concepts/accountability-and-responsibility' },
     ],
   },
   {
     title: 'Framework capability areas',
     links: [
-      { title: 'Risk Management', href: '/pscf/capability-areas/risk-management' },
+      { title: 'Governance, Risk and Compliance', href: '/pscf/capability-areas/governance-risk-and-compliance' },
       { title: 'Secure Product Management', href: '/pscf/capability-areas/secure-product-management' },
       { title: 'Secure Product Implementation', href: '/pscf/capability-areas/secure-product-implementation' },
       { title: 'Secure Build & Deployment', href: '/pscf/capability-areas/secure-build-and-deployment' },
