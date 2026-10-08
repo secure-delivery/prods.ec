@@ -95,7 +95,7 @@ export function Hero() {
 
                 <div className="flex items-center justify-between gap-x-4">
                   <h3 id="tier-startup" className="text-xl font-semibold leading-8 text-white">Product Security Capability Framework</h3>
-                  <p className="rounded-full bg-sky-500 px-2.5 py-1 text-xs font-semibold leading-5 text-white">v1.0</p>
+                  <p className="rounded-full bg-sky-500 px-2.5 py-1 text-xs font-semibold leading-5 text-white">v2.0</p>
                 </div>
                 <p className="mt-4 text-sm leading-6 text-gray-300">A proven approach to building the core capabilities for secure software product delivery into your organisation.</p>
                 
@@ -117,7 +117,7 @@ export function Hero() {
                     <svg className="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
                     </svg>
-                    Clear accountabilities and reponsibilities
+                    Clear accountabilities and responsibilities
                   </li>
                   <li className="flex gap-x-3">
                     <svg className="h-6 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
